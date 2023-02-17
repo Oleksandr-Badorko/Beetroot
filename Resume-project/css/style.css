@@ -1,0 +1,249 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgb(127, 121, 121)
+}
+
+.wrapper {
+    display:flex;
+    flex-direction: row-reverse;
+    background: floralwhite;
+    width: 1200px;
+    margin: 0 auto; 
+    padding: 54px 40px 24px 24px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Main content */
+.main-content {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.main-content-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin:0 0 8px 0;
+}
+
+
+/* About me */
+.my-profession {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 18px 0;
+}
+
+.my-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #010101;
+    margin: 0 0 28px 0;
+}
+
+.my-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 525px;
+    margin-bottom: 64px;
+}
+
+/* Projects */
+.projects-container{
+    margin-bottom: 54px;
+}
+
+.project-list {
+    padding:0 0 0 0;
+    margin:0 0 0 14px;
+}
+
+.project-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project-item-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #005FFF;
+}
+.project-item-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+
+/* Work experience */
+.work-experience-item {
+    margin-bottom: 16px;
+}
+
+.work-experience-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #060606;
+}
+
+.work-experience-company{
+    color: #6D9BF5;
+}
+
+.work-period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin:12px 0 8px 0;
+}
+
+.work-duties {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.work-duties-list {
+    padding: 0 0 0 20px;
+    margin: 0 0 44px 0;
+}
+
+
+/* Education */
+.education-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.education-place {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6D9BF5;
+    margin-bottom: 12px;
+}
+
+.education-degree {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.education-list {
+    padding: 0 0 0 0px;
+    margin: 0 0 14px 0;
+}
+
+.education-period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+
+ /* Sidebar */
+ .sidebar {
+    width: 370px;
+    background: #E0EBFE;
+ }
+
+ .my-photo{
+    margin-top: 40px;
+ }
+
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container {
+    margin: 48px 0 0 40px;
+}
+
+.sidebar-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #e11616;
+    margin-bottom:  8px;
+}
+
+
+/* Contacts */
+.contacts-type{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contacts-item {
+    margin: 0px;
+    font-size: 15px;
+}
+
+.contacts-number {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.contacts-mail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2982ff;
+}
+
+.skill-list {
+    margin:0px;
+    padding:0 0 0 20px;
+}
+
+.skill-list-item {
+    color: #6D9BF5;
+}
+
+.skill-list-text {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #161D2A
+}
