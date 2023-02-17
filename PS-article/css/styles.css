@@ -1,0 +1,82 @@
+body {
+  font-family: "Tinos", serif;
+  background-color: rgb(196, 255, 204);
+  background-image: url(../img/hand-drawn-colorful-science-education-background_23-2148490027.avif);
+}
+/* Wrapper */
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+  height: 2450px;
+  border: 5px solid #000;
+  padding: 0px 40px 0px 40px;
+  box-shadow: 10px 10px 10px 10px #000;
+  border-radius: 30px;
+  background-color: aliceblue;
+}
+/* Main Content */
+.title-item {
+  margin-left: 120px;
+  font-size: 25px;
+}
+/* Navigation */
+.navigation-container {
+  font-size: 18px;
+}
+/* Definition */
+.rules-title {
+  margin-left: 112px;
+}
+/* Spreadsheet */
+.table-container {
+  padding-left: 80px;
+}
+.usage-title {
+  padding-left: 128px;
+}
+/* Spelling */
+.spelling-title {
+  padding-left: 158px;
+}
+.spelling-item {
+  padding: 0 0 0 238px;
+}
+/* Short Answers */
+.answers-title {
+  padding-left: 138px;
+}
+/* Special Questions */
+.questions-title {
+  padding-left: 118px;
+}
+/* Screens */
+.photo-item {
+  padding: 120px;
+}
+.photo-item2 {
+  padding: 120px;
+}
+
+/* Feedback */
+
+.feedback-container {
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.feedback-container::before {
+  content: "✔";
+  color: green;
+  margin: 0;
+}
+
+.feedback-text {
+  border: 2px #000 dashed;
+  padding: 0px 5px 5px 5px;
+}
+
+.button-item {
+  display: inline-table;
+  margin-top: 5px;
+}
+
