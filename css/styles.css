@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(83, 83, 83) !important;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    padding: 80px;
+    margin: 0 auto;
+    width: 580px;
+    box-shadow: 1px 1px 3px 1px #000;
+    background-color: white;
+}
+
+h2 {
+margin-bottom: 20px;
+}
