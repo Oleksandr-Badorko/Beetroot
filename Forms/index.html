@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Forms</title>
+  </head>
+  <body>
+    <div class="wrapper">
+    <form action="#" method="get">
+    <div class="field1">
+      <!-- User's full name -->
+      <label for="full-name">Повне ім'я</label>
+      <input id="full-name" name="fullname" type="text" required />
+      <br />
+      <br />
+      <!-- User's email -->
+      <label for="email" type="text">Email</label>
+      <input id="email" name="emailtext" type="text" required />
+      <br />
+      <br />
+      <!-- User's password and password confirmation -->
+      <label for="password" type="password">Пароль</label>
+      <input id="password" name="userpass" type="password" required />
+      <br />
+      <br />
+      <label for="passw-confirm" type="password">Пароль ще раз</label>
+      <input id="passw-confirm" name="userpassconfirm" type="password" required />
+    </div>
+      <br>
+      <div class="field2">
+      <!-- User's gender -->
+      <label for="gender">Cтать</label>
+      <span class="gender-item">
+      <input id="gender" type="radio" name="usergender" value="male" />
+      чоловіча
+      <input
+        id="female-gender"
+        type="radio"
+        name="usergender"
+        value="female"
+        required/> 
+        жіноча
+    </span>
+      <br />
+      <br />
+      <!-- User's age -->
+      <label for="age">Вік</label>
+      <span class="age-item"><input id="age" name="userage" type="number" min="18" max="99" required /></span>
+      <br />
+      <br />
+      <!-- User's education course -->
+      <label for="course">Курс</label>
+      
+      <select class="course-item" name="usercourse" required>
+        <option value="">-=Виберіть курс=-</option>
+        <option value="front-end">Front-End</option>
+        <option value="back-end">Back-End</option>
+        <option value="project-management">Project Management</option>
+        <option value="qa-manual">QA Manual</option>
+      </select>
+      <br />
+      <br />
+      <!-- Address of residence -->
+      <label class="address-title" for="full-address">Повна адреса</label>
+      <textarea
+        class="address-text"
+        id="full-address"
+        name="userresidence"
+        placeholder="Країна,регіон, місто/селище, вулиця"
+        cols="20"
+        rows="4"
+        required
+      ></textarea>
+      <br />
+      <br />
+      <br>
+      <br>
+      <br>
+    </div>
+      <!-- Processing of personal data -->
+      <input id="data" type="checkbox" name="userdata" value="data" /> <span class="data-text">Я погоджуюсь з обробкою персональних даних</span>
+      <br>
+      <br>
+      <!-- Interaction buttons -->
+      <div class="buttons-container">
+        <button type="reset">Очистити форму</button>
+        <button type="submit">Зареєструватися</button>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

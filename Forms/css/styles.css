@@ -1,0 +1,52 @@
+.wrapper {
+padding: 30px;
+margin: 0 auto;
+width: 320px;
+background-color: rgb(230, 229, 229);
+}
+
+.field1 {
+    clear:both; text-align:right;
+}
+
+.field2 {
+    clear:both; text-align:right;
+}
+
+.gender-item {
+    float:right; 
+    margin-right: 14px;
+}
+
+.age-item {
+    float: right;
+    margin-right: 106px; 
+}
+
+.course-item {
+    float: right;
+    margin-right: 25px; 
+}
+
+.address-title {
+    float:left;
+    margin-top: 54px;
+ }
+.address-text { 
+    float: right;
+    margin-right: 4px;
+}
+
+label {
+    float:left;
+}
+
+.data-text {
+    font-size: 12px;
+    text-align: left;
+}
+
+.buttons-container {
+    text-align: center;
+}
+
