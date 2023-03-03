@@ -1,0 +1,150 @@
+@import "./reset.css";
+
+*{transition: all .1s ease-in;}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #2B81AC;
+    color: white;
+    padding: 20px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 20px;
+}
+
+.wrapper {
+    background: #3399CC;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+main {
+    cursor: pointer;
+}
+
+header, main, footer {
+    width:60%;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    font-size: 27px;
+}
+
+ul {
+    font-size: 0;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    position: relative;
+}
+
+ul li {
+    font-size: 20px;
+    display: inline-block;
+    width: 25%;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+ul li:nth-child(1) {
+    width: 50%;
+    background-color: #3399CC;
+}
+
+ul li:nth-child(2) {
+    background-color: #33CCCC;
+}
+
+ul li:nth-child(3) {
+    background-color: #996699;;
+}
+
+ul li:nth-child(4) {
+    background-color: #C24747;
+}
+
+ul li:nth-child(5) {
+    background-color: #E2674A;;
+}
+
+ul li:nth-child(6) {
+    background-color: #FFCC66;
+}
+
+ul li:nth-child(7) {
+    background-color: #99CC99;
+}
+
+ul li:nth-child(8) {
+    background-color: #669999;
+}
+
+ul li:nth-child(9) {
+    background-color: #CC6699;
+    width: 50%;
+}
+
+ul li:nth-child(10) {
+    background-color: #339966;
+}
+
+ul li:nth-child(11) {
+    background-color: #666699;
+    width: 100%;
+}
+
+span.number::after {
+    content: "°C";
+}
+
+span + i {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.temp {
+    margin-top: 18px;
+    opacity: 0.5;
+}
+
+span.number  {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+div.curtain{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.5;
+    display: none;
+}
+
+ul:hover div.curtain {
+    display: inline-block;
+}
+li:hover div.curtain {
+    display: none;
+}
+
+footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
