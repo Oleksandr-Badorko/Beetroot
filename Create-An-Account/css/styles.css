@@ -1,0 +1,351 @@
+@import "./reset.css";
+@import "./stylesheet.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background-color: antiquewhite;
+}
+
+.form_container {
+  background-color: #ffffff;
+  width: 580px;
+  height: 590px;
+  padding: 34px 30px 16px 34px;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main_title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.field {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form input[type="text"] {
+  margin-top: 7px;
+}
+
+.email_input {
+  margin-top: 7px;
+}
+
+.username_box_one {
+  margin: 20px 12px 0 0;
+}
+
+.username_box_two {
+  margin: 20px 12px 0 0;
+}
+
+.email_box {
+  margin: 20px 0 0 0;
+}
+
+.radio_box {
+  margin: 20px 0 0 0;
+}
+
+.residence_box {
+  position: absolute;
+  left: 6.32%;
+  right: 50.7%;
+  top: 55.59%;
+  bottom: 33.05%;
+}
+
+.city_box {
+  position: absolute;
+  left: 47.05%;
+  right: 5.96%;
+  top: 54.2%;
+  bottom: 33.05%;
+  margin-left: 20px;
+}
+
+.name_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.name_input {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+}
+
+.email_input {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 500px;
+  height: 38px;
+}
+
+.email_info_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #969696;
+
+  margin-top: 7px;
+}
+
+.radio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  padding-right: 20px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+select.country-item {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin-top: 7px;
+}
+
+select {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  line-height: 22px;
+  padding: 8px 10px;
+  color: #545454;
+}
+
+.residence_box::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  width: 18px;
+  height: 18px;
+  background-image: url(../assets/img/arrow.svg);
+}
+
+.city_span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.city_input {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+}
+
+.button_box {
+  margin-top: 107px;
+}
+
+.button {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  width: 500px;
+  padding: 7px 10px;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.button:active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.policy_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+
+  color: #969696;
+  text-align: center;
+
+  padding-bottom: 20px;
+  margin-top: 22px;
+  border-bottom: 0 solid #9f9e9e;
+  border-width: 1px 0;
+}
+
+.log_in_box {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  padding-top: 20px;
+  text-align: center;
+  gap: 20px;
+  position: absolute;
+  height: 22px;
+  left: 34.39%;
+  right: 34.56%;
+  top: 530px;
+}
+
+.account_item {
+  gap: 20px;
+}
+
+.name_text input[type="text"]:hover {
+  border: 1px solid #007bff;
+}
+
+.name_text input[type="email"]:hover {
+  border: 1px solid #007bff;
+}
+
+select:hover {
+  border: 1px solid #007bff;
+}
+
+.name_text input[type="text"]:focus {
+  border: 1px solid #007bff;
+}
+
+.name_text input[type="email"]:focus {
+  border: 1px solid #007bff;
+}
+
+select:focus {
+  border: 1px solid #007bff;
+}
+
+input[type="text"]:hover {
+  border: 1px solid #007bff;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #007bff;
+}
+
+.pop-up_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 0, 0, 0.5);
+}
+
+.background_text {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+}
+
+/* RADIO BUTTONS */
+
+/* The display of the old buttons */
+.radio_box input[type="radio"] {
+  display: none;
+}
+
+/* The button positioning */
+.radio_box input[type="radio"] + label {
+  position: relative;
+  padding: 0 0 0 28px;
+  cursor: pointer;
+}
+
+/* Active appearance of the buttons */
+.radio_box input[type="radio"]:checked + label::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  height: 20px;
+  width: 20px;
+  border: 6px solid #007bff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* The default appearance of the button */
+.radio_box input[type="radio"] + label::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  height: 20px;
+  width: 20px;
+  border: 1px solid #e4e4e4;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+/* Hover for new radio buttons */
+.radio_box input[type="radio"] + label:hover::before {
+  border: 1px solid #007bff;
+}
+
+/* Active-Hover for new radio buttons */
+.radio_box input[type="radio"]:checked + label:hover::before {
+  border: 6px solid #007bff;
+}
+
+.radio_box {
+  margin-right: 20px;
+}

@@ -1,0 +1,300 @@
+@import "./reset.css";
+@import "./stylesheet.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  background-color: antiquewhite;
+}
+
+.profile_container {
+  background-color: #ffffff;
+  width: 580px;
+  height: 590px;
+  padding: 34px 30px 16px 34px;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main_title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+
+  margin-bottom: 20px;
+}
+
+.avatar-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.avatar_photo img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.avatar-input {
+  margin-top: 14px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.avatar-input input[type="file"] {
+  display: none;
+}
+
+.avatar-input label {
+  position: relative;
+  display: inline-block;
+  width: 138px;
+  height: 30px;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.avatar-input label img {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  transform: translate(0, -50%);
+}
+
+.button-bin {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 0 0 10px;
+}
+
+.button-bin img {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.avatar-input label:hover,
+.button-bin:hover {
+  border: 1px solid #007bff;
+}
+
+.hint-text {
+  display: block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #969696;
+  margin: 7px 0 0;
+}
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(2, 245px);
+  grid-auto-rows: 67px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+
+  margin-bottom: 7px;
+}
+
+input {
+  margin-top: 7px;
+}
+
+input[type="text"] {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+}
+
+input[type="tel"],
+input[type="password"] {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+}
+
+select.country-item {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  margin-top: 7px;
+}
+
+select {
+  width: 100%;
+  height: 38px;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  line-height: 22px;
+  padding: 8px 10px;
+  color: #545454;
+}
+
+.residence_box::before {
+  content: "";
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-200%, -0%);
+  width: 18px;
+  height: 18px;
+  background-image: url(../assets/img/arrow.svg);
+}
+
+.city_span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+  color: #545454;
+}
+
+.city_input {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 6px;
+  width: 245px;
+  height: 38px;
+}
+
+.button {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  width: 150px;
+  height: 38px;
+  padding: 8px 10px;
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.button:active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.residence_box { 
+  margin-top: 10px;
+}
+.city_box { 
+  margin-top: 10px;
+}
+.zip_code_box {
+  margin-top: 20px;
+ }
+.tel_box {
+  margin-top: 20px;
+ }
+.button_box { 
+  margin-top: 30px;
+}
+
+.background_text {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+}
+
+.text input[type="text"]:hover {
+  border: 1px solid #007bff;
+}
+
+.text input[type="email"]:hover {
+  border: 1px solid #007bff;
+}
+
+select:hover {
+  border: 1px solid #007bff;
+}
+
+.text input[type="text"]:focus {
+  border: 1px solid #007bff;
+}
+
+.text input[type="email"]:focus {
+  border: 1px solid #007bff;
+}
+
+input[type="text"]:hover, input[type="text"]:focus {
+  border: 1px solid #007bff;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input[type="tel"]:hover {
+  border: 1px solid #007bff;
+}
+
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="tel"]:focus  {
+  border: 1px solid #007bff;
+}
+
+
+.blackdrop_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 0, 0, 0.5);
+}
+
