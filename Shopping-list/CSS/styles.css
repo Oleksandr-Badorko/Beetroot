@@ -89,8 +89,7 @@ span {
   height: 28px;
   vertical-align: middle;
   cursor: pointer;
-  margin-right: 16px;
-  margin-left: 8px;
+  margin: 0 16px 0 8px;
 }
 
 .shopping-list label {
