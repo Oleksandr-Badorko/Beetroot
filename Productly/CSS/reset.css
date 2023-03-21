@@ -24,3 +24,7 @@ a {
   text-decoration: none;
   color: #070707;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
