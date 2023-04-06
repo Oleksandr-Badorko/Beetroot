@@ -1,0 +1,29 @@
+@mixin heading-one($ffRHD, $fsn, $fw600, $fz48, $lh64, $ls005, $color-dark) {
+    font-family: $ffRHD;
+    font-style: $fsn;
+    font-weight: $fw600;
+    font-size: $fz48;
+    line-height: $lh64;
+    letter-spacing: $ls005;
+    color: $color-dark;
+}
+
+@mixin heading-two($ffRHD, $fsn, $fw600, $fz28, $lh166, $ls01, $color-dark) {
+    font-family: $ffRHD;
+    font-style: $fsn;
+    font-weight: $fw600;
+    font-size: $fz28;
+    line-height: $lh166;
+    letter-spacing: $ls01;
+    color: $color-dark;
+}
+
+@mixin paragraph($fflato, $fsn, $fw400, $fz19, $lh32, $ls005, $color-grey) {
+    font-family: $fflato;
+    font-style: $fsn;
+    font-weight: $fw400;
+    font-size: $fz19;
+    line-height: $lh32;
+    letter-spacing: $ls005;
+    color: $color-grey;
+}

@@ -1,0 +1,26 @@
+___h1___
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 64px;
+letter-spacing: 0.05em;
+color: #000000;
+
+___h2___
+font-family: 'Red Hat Display';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 166%;
+letter-spacing: 0.1em;
+color: #000000;
+
+___p___
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 32px;
+letter-spacing: 0.05em;
+color: #565656;

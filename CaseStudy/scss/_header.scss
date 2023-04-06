@@ -1,0 +1,21 @@
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.header {
+    padding: 50px 0 50px 0;
+    @include md {
+        margin-left: 34px;
+    }
+    &__container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        @include md {
+            height: 60px;
+        }
+        @include ssm {
+            height: 60px;
+        }
+    }
+}

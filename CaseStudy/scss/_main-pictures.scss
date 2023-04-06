@@ -1,0 +1,77 @@
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.main__section-picture {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 97.5%;
+    height: 500px;
+    background-image: url(../assets/img/desktop/image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include md {
+        max-height: 76%;
+        background-image: url(../assets/img/tablet/image.jpg);
+    }
+    @include ssm {
+        max-height: 76%;
+        background-image: url(../assets/img/mobile/image.jpg);
+    }
+}
+
+.main__section-picture2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 97.5%;
+    height: 500px;
+    background-image: url(../assets/img/desktop/Image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include md {
+        max-height: 76%;
+        background-image: url(../assets/img/tablet/image-1.jpg);
+    }
+    @include ssm {
+        max-height: 76%;
+        background-image: url(../assets/img/mobile/image-1.jpg);
+    }
+}
+.main__section-picture3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 97.5%;
+    height: 500px;
+    background-image: url(../assets/img/desktop/image-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include md {
+        max-height: 76%;
+        background-image: url(../assets/img/tablet/image-2.jpg);
+    }
+    @include ssm {
+        max-height: 76%;
+        background-image: url(../assets/img/mobile/image-2.jpg);
+    }
+}
+.main__section-picture4 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 97.5%;
+    height: 500px;
+    background-image: url(../assets/img/desktop/Img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @include md {
+        max-height: 76%;
+        background-image: url(../assets/img/tablet/image-3.jpg);
+    }
+    @include ssm {
+        max-height: 76%;
+        background-image: url(../assets/img/mobile/image-3.jpg);
+    }
+}

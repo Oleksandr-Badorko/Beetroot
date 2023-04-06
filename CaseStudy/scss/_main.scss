@@ -1,0 +1,98 @@
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @include md {
+        padding-left: 23px;
+    }
+    @include ssm {
+        padding-left: 10px;
+    }
+    &-title {
+        @include heading-one("Red Hat Display", normal, 600, 48px, 166%, 0.1em, #000);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        white-space: nowrap;
+        @include md {
+            font-size: 33px;
+            margin-top: 50px;
+        }
+        @include ssm {
+            font-size: 30px;
+            margin-top: 0px;
+        }
+    }
+    &__section {
+        margin-bottom: 90px;
+        @include md {
+            margin-bottom: 50px; 
+        }
+        @include ssm {
+            margin-bottom: 70px; 
+        }
+        &-title {
+            @include heading-two("Red Hat Display", normal, 600, 28px, 166%, 0.1em, #000);
+            @include md {
+                font-size: 28px;
+            }
+            @include ssm {
+                font-size: 26px;
+            }
+        }
+        .title_martop {
+            padding-top: 80px;
+            padding-bottom: 40px;
+        }
+        &-text {
+            @include paragraph("Lato", normal, 400, 19px, 32px, 0.05em, #565656);
+            @include md {
+                font-size: 19px;
+            }
+            @include ssm {
+                font-size: 16px;
+            }
+        }
+        .first {
+                width: 49%;
+                @include md {
+                    width: 94%;
+                }
+                @include ssm {
+                    width: 98%;
+                }
+        }
+        .second {
+            @include md {
+                width: 92%;
+            }
+            @include ssm {
+                width: 100%;
+            }
+        }
+        .third {
+            @include md {
+                width: 92%;
+            }
+            @include ssm {
+                width: 98%;
+            }
+        }
+        .fourth {
+            @include md {
+                width: 88%;
+            }
+            @include ssm {
+                width: 88%;
+                span {
+                    white-space: pre;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+@import "./reset";
+@import "./variables";
+@import "./mixins";
+@import "./responsive";
+@import "./header";
+@import "./main";
+@import "./main-pictures";
+@import "./footer";
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
