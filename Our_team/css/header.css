@@ -1,0 +1,51 @@
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  width: 450px;
+  height: 157px;
+  display: inline-block;
+  margin-top: 122px;
+}
+.container__heading__two {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #898f8f;
+  margin-bottom: 15px;
+}
+.container__heading__one {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  color: #ffcc00;
+  margin-bottom: 30px;
+}
+.container__divider {
+  width: 450px;
+  height: 20px;
+}
+.container__divider::before {
+  content: "";
+  border: 1px solid #ffcc00;
+  width: 210px;
+  height: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.container__divider::after {
+  content: "";
+  border: 1px solid #ffcc00;
+  width: 210px;
+  height: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}

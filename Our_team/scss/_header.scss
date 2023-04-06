@@ -1,0 +1,41 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+//HEADER//
+.wrapper {
+    @include wrapper(1170px, 0 auto, center);
+}
+
+.container {
+    @include head-contain(450px, 157px, inline-block);
+    margin-top: 122px;
+    &__heading__two {
+        @include text-styles(center, uppercase, normal);
+        font-family: "Raleway";
+        font-weight: $fw500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #898f8f;
+    
+        margin-bottom: 15px;
+    }
+    &__heading__one {
+        font-family: "Roboto";
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 66px;
+        color: #ffcc00;
+        margin-bottom: 30px;
+    }
+    &__divider {
+        @include divide(450px, 20px);
+        &::before {
+            content: "";
+            @include horilines($border, 210px, 1px, inline-block, middle);
+        }
+        &::after {
+            content: "";
+            @include horilines($border, 210px, 1px, inline-block, middle);
+        }
+    }
+}

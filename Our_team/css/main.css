@@ -1,0 +1,16 @@
+.main__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section__slider {
+  display: flex;
+}
+
+.middle__divider {
+  width: 0px;
+  height: 560px;
+  border: 1px solid #ffcc00;
+  margin: 40px 0 0 0;
+}

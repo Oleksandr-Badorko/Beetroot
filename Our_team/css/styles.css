@@ -1,0 +1,367 @@
+/*reset*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a {
+  color: #007bff;
+}
+
+hr {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../assets/fonts/Open_Sans/OpenSans-Bold.woff2") format("woff2"), url("../assets/fonts/Open_Sans/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../assets/fonts/Raleway/Medium/Raleway-Medium.woff2") format("woff2"), url("../assets/fonts/Raleway/Medium/Raleway-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../assets/fonts/Raleway/Regular/Raleway-Regular.woff2") format("woff2"), url("../assets/fonts/Raleway/Regular/Raleway-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Black.woff2") format("woff2"), url("../assets/fonts/Roboto/Roboto-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  width: 450px;
+  height: 157px;
+  display: inline-block;
+  margin-top: 122px;
+}
+.container__heading__two {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #898f8f;
+  margin-bottom: 15px;
+}
+.container__heading__one {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  color: #ffcc00;
+  margin-bottom: 30px;
+}
+.container__divider {
+  width: 450px;
+  height: 20px;
+}
+.container__divider::before {
+  content: "";
+  border: 1px solid #ffcc00;
+  width: 210px;
+  height: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.container__divider::after {
+  content: "";
+  border: 1px solid #ffcc00;
+  width: 210px;
+  height: 1px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section__slider {
+  display: flex;
+}
+
+.middle__divider {
+  width: 0px;
+  height: 560px;
+  border: 1px solid #ffcc00;
+  margin: 40px 0 0 0;
+}
+
+.left__photo {
+  width: 50%;
+  margin: 100px 0 0;
+  position: relative;
+  top: 10px;
+}
+
+.photo__frame {
+  width: 430px;
+  height: 430px;
+}
+.photo__frame img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 85px;
+}
+.photo__frame .angle__one {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  top: -15px;
+  left: 69px;
+  border-right: none;
+  border-bottom: none;
+}
+.photo__frame .angle__two {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  top: -15px;
+  right: 83px;
+  border-left: none;
+  border-bottom: none;
+}
+.photo__frame .angle__three {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  bottom: 85px;
+  right: 83px;
+  border-left: none;
+  border-top: none;
+}
+.photo__frame .angle__four {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffcc00;
+  bottom: 85px;
+  left: 69px;
+  border-right: none;
+  border-top: none;
+}
+
+.right__section {
+  width: 50%;
+  margin-top: 100px;
+  position: relative;
+}
+.right__section .right {
+  width: 430px;
+  height: 420px;
+  position: absolute;
+  left: 85px;
+  top: 0px;
+  text-align: center;
+}
+.right__section .name {
+  font-family: "Roboto";
+  font-style: 900;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #666666;
+}
+.right__section .name__divider {
+  width: 100px;
+  height: 0px;
+  border: 1px solid #ffcc00;
+  display: inline-table;
+  margin: 22px 0;
+}
+.right__section .position {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.right__section .icons .socials {
+  margin: 30px 0 48px 0;
+}
+.right__section .icons .socials .social__links {
+  display: inline-flex;
+  padding-right: 4px;
+  border-radius: 6px;
+}
+.right__section .lorem__text {
+  font-family: "Raleway";
+  font-style: 900;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.right__section .rectangle__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+.right__section .rectangle__box .rectangle1 {
+  width: 10px;
+  height: 4px;
+  background: #ffcc00;
+}
+.right__section .rectangle__box .rectangle2 {
+  width: 20px;
+  height: 4px;
+  background: #ffcc00;
+}
+.right__section .rectangle__box .rectangle3 {
+  width: 10px;
+  height: 4px;
+  background: #ffcc00;
+}
+
+.button__box {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffcc00;
+  width: 118px;
+  height: 24px;
+  padding: 5px 10px;
+}
+.button__box:hover {
+  background: #ffcc00;
+}
+.button__box .button {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #666666;
+}

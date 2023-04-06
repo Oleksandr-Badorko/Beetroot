@@ -1,0 +1,47 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+.left__photo {
+    width: 50%;
+    margin: 100px 0 0;
+    position: relative;
+    top: 10px; 
+}
+.photo__frame {
+    width: 430px;
+    height: 430px;
+    img {
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        left: 85px;
+    }
+    .angle__one {
+        @include angle(absolute, 100px, 100px, 1px solid #ffcc00);
+        top: -15px;
+        left: 69px;
+        border-right: none;
+        border-bottom: none;
+    }
+    .angle__two {
+        @include angle(absolute, 100px, 100px, 1px solid #ffcc00);
+        top: -15px;
+        right: 83px;
+        border-left: none;
+        border-bottom: none;
+    }
+    .angle__three {
+        @include angle(absolute, 100px, 100px, 1px solid #ffcc00);
+        bottom: 85px;
+        right: 83px;
+        border-left: none;
+        border-top: none;
+    }
+    .angle__four {
+        @include angle(absolute, 100px, 100px, 1px solid #ffcc00);
+        bottom: 85px;
+        left: 69px;
+        border-right: none;
+        border-top: none;
+    }
+}

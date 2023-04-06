@@ -1,0 +1,103 @@
+.right__section {
+  width: 50%;
+  margin-top: 100px;
+  position: relative;
+}
+.right__section .right {
+  width: 430px;
+  height: 420px;
+  position: absolute;
+  left: 85px;
+  top: 0px;
+  text-align: center;
+}
+.right__section .name {
+  font-family: "Roboto";
+  font-style: 900;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: capitalize;
+  color: #666666;
+}
+.right__section .name__divider {
+  width: 100px;
+  height: 0px;
+  border: 1px solid #ffcc00;
+  display: inline-table;
+  margin: 22px 0;
+}
+.right__section .position {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.right__section .icons .socials {
+  margin: 30px 0 48px 0;
+}
+.right__section .icons .socials .social__links {
+  display: inline-flex;
+  padding-right: 4px;
+  border-radius: 6px;
+}
+.right__section .lorem__text {
+  font-family: "Raleway";
+  font-style: 900;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+.right__section .rectangle__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+.right__section .rectangle__box .rectangle1 {
+  width: 10px;
+  height: 4px;
+  background: #ffcc00;
+}
+.right__section .rectangle__box .rectangle2 {
+  width: 20px;
+  height: 4px;
+  background: #ffcc00;
+}
+.right__section .rectangle__box .rectangle3 {
+  width: 10px;
+  height: 4px;
+  background: #ffcc00;
+}
+
+.button__box {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffcc00;
+  width: 118px;
+  height: 24px;
+  padding: 5px 10px;
+}
+.button__box:hover {
+  background: #ffcc00;
+}
+.button__box .button {
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #666666;
+}

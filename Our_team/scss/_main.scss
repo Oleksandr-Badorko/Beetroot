@@ -1,0 +1,17 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+//MAIN//
+.main__wrapper {
+    @include wrapper(1170px, 0 auto, center);
+}
+.section__slider {
+    display: flex;
+}
+
+.middle__divider {
+    width: 0px;
+    height: 560px;
+    border: $border;
+    margin: 40px 0 0 0;
+}

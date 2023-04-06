@@ -1,0 +1,38 @@
+//MIXINS
+@mixin wrapper($wi1170, $gema, $alcenter) {
+    width: $wi1170;
+    margin: $gema;
+    text-align: $alcenter;
+}
+
+@mixin head-contain($w450, $h157, $disinbl) {
+    width: $w450;
+    height: $h157;
+    display: $disinbl;
+}
+
+@mixin text-styles($texalcent, $ttup, $fsn) {
+    text-align: $texalcent;
+    text-transform: $ttup;
+    font-style: $fsn;
+}
+
+@mixin divide($w450, $h20) {
+    width: $w450;
+    height: $h20;
+}
+
+@mixin horilines($border, $w210, $h1, $disinbl, $vertalmid) {
+    border: $border;
+    width: $w210;
+    height: $h1;
+    display: $disinbl;
+    vertical-align: $vertalmid;
+}
+
+@mixin angle($posiab, $wi100, $h100, $border) {
+    position: $posiab;
+    width: $wi100;
+    height: $h100;
+    border: $border;
+}
