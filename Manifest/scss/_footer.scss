@@ -1,0 +1,138 @@
+@import "./responsive";
+
+.footer {
+    width: 100%;
+    height: 300px;
+    @include md {
+        width: 100%;
+        height: 40%;
+    }
+
+    @include ssm {
+        width: 100%;
+        height: 50%;
+    }
+    background: #f4f4f4;
+    &__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: relative;
+        
+        @include md {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__cta {
+            margin-top: 70px;
+
+            @include md {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            &-title {
+                font-family: "Red Hat Display";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 64px;
+                letter-spacing: 0.05em;
+                color: #000000;
+                margin-bottom: 15px;
+                @include ssm {
+                    text-align: center;
+                    font-size: 32px;
+                }
+            }
+            &-number {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 166%;
+                letter-spacing: 0.1em;
+                color: #000000;
+                margin-bottom: 7px;
+            }
+            &-email {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 166%;
+                letter-spacing: 0.1em;
+                color: #000000;
+            }
+        }
+        &__socials {
+            margin-top: 125px;
+            @include md {
+                margin-top: 52px;
+            }
+            cursor: pointer;
+            &-icon {
+                position: relative;
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                left: 0px;
+                top: 0px;
+                padding: 10px;
+                border: 1px solid #565656;
+                svg {
+                    box-sizing: border-box;
+                    display: inline-block;
+                    position: absolute;
+                    top: 50%;
+                    right: 50%;
+                    transform: translate(50%, -50%);
+                }
+            }
+        }
+    }
+}
+
+.footer__container__socials-box {
+    margin-right: 18px;
+}
+
+.footer__container__socials-box:last-child {
+    margin-right: 0px;
+}
+
+.footer__container__socials-box .hover-icon {
+    fill: #565656;
+}
+.footer__container__socials-box:hover .hover-icon {
+    background: #565656;
+}
+.footer__container__socials-box:hover .icon {
+    background: #565656;
+    fill: #fff;
+}
+
+.footer__container__copyright {
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.footer__container__copyright-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    @include ssm {
+      font-size: 16px;  
+      text-align: center;
+      display: flex;
+      justify-content: center;
+    }
+}

@@ -1,0 +1,75 @@
+@import "./responsive";
+
+.main__blog__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 90px;
+    @include ssm {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    @include md {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    &-text {
+        max-width: 470px;
+        max-height: 76px;
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #000000;
+        @include ssm {
+            display: flex;
+            flex-direction: column;
+            text-align:left;
+            max-width: 300px;
+            max-height: 160px;
+        }
+        @include md {
+            margin-bottom: 70px;
+        }
+        @include md {
+            .md-whitespace {
+                white-space: pre;
+            }
+        }
+        img {
+            margin-top: 20px;
+        }
+    }
+    &-worktext {
+        width: 470px;
+        height: 192px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 32px;
+        letter-spacing: 0.05em;
+        color: #565656;
+        @include ssm {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            max-height: 244px;
+            text-align: left !important;
+            align-self: baseline !important;
+        }
+        @include md {
+            text-align: right;
+            align-self: flex-end;
+        }
+    }
+}

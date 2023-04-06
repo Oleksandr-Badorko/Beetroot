@@ -1,0 +1,268 @@
+@import "./responsive";
+
+.main__blog {
+    display: flex;
+    flex-direction: column;
+    @include md {
+        margin-left: 34px;
+        margin-right: 34px;
+    }
+
+    @include ssm {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    &-title {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+        color: #000000;
+
+        margin-bottom: 50px;
+        @include ssm {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            padding: 0px;
+            margin: 0 0 50px 0;
+        }
+        
+    }
+    .main__blog__article {
+        display: flex;
+        margin-bottom: 40px;
+        @include ssm {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            padding: 0px;
+            margin: 0px;
+        }
+        img {
+            @include md {
+                max-width: 340px;
+                max-height: 280px;
+            }
+        }
+        img {
+            @include ssm {
+                max-width: 300px;
+                max-height: 250px;
+            }
+        }
+        &__info {
+            max-width: 450px;
+            align-self: center;
+            margin-left: 30px;
+            @include ssm {
+                margin-left: 10px;
+            }
+            &-tag {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 166%;
+                letter-spacing: 0.1em;
+                color: #7b7b7b;
+
+                margin-bottom: 20px;
+            }
+            &-title {
+                font-family: "Red Hat Display";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 23px;
+                line-height: 166%;
+                letter-spacing: 0.1em;
+                margin-bottom: 15px;
+
+                @include ssm {
+                    font-size: 22px;
+                }
+            }
+            &-date {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 166%;
+                letter-spacing: 0.1em;
+                color: #7b7b7b;
+            }
+            &-text {
+                margin-top: 40px;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 166%;
+                letter-spacing: 0.05em;
+                color: #565656;
+                position: relative;
+                @include ssm {
+                    padding: 0px;
+                    margin-bottom: 37px;
+                }
+                .arrow-img {
+                    box-sizing: border-box;
+                    position: absolute;
+                    left: 190px;
+                    top: 61px;
+                }
+            }
+        }
+    }
+}
+
+.main__blog__article-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    padding-left: 90px;
+    margin-bottom: 90px;
+    @include md {
+        padding-left: 0;
+    }
+    @include ssm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        margin: 50px 0 0 0px;
+    }
+    img {
+        @include md {
+            max-width: 340px;
+            max-height: 280px;
+        }
+    }
+    img {
+        @include ssm {
+            max-width: 300px;
+            max-height: 250px;
+        }
+    }
+    &__info {
+        max-width: 450px;
+        margin-right: 20px;
+        @include ssm {
+            margin-left: 10px;
+        }
+        &-tag {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 166%;
+            letter-spacing: 0.1em;
+            color: #7b7b7b;
+            margin-bottom: 20px;
+        }
+        &-title {
+            font-family: "Red Hat Display";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 23px;
+            line-height: 166%;
+            letter-spacing: 0.1em;
+            margin-bottom: 15px;
+            
+            @include ssm {
+                font-size: 22px;
+            }
+        }
+        &-date {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 166%;
+            letter-spacing: 0.1em;
+            color: #7b7b7b;
+        }
+        &-text {
+            margin-top: 40px;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 166%;
+            letter-spacing: 0.05em;
+            color: #565656;
+            position: relative;
+            @include ssm {
+                padding: 0px;
+                margin-bottom: 37px;
+            }
+            .arrow-img {
+                box-sizing: border-box;
+                position: absolute;
+                left: 193px;
+                top: 61px;
+            }
+        }
+    }
+}
+
+.main__blog__link {
+    @include md {
+        &:hover {
+            color: #000000;
+            span {
+                margin-right: 20px;
+                display: inline-block;
+                color: #7b7b7b;
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 166%;
+                letter-spacing: 0.05em;
+                color: #565656;
+            }
+        }
+        & span {
+            display: none;
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 166%;
+            letter-spacing: 0.05em;
+            color: #565656;
+        }
+    }
+    
+}
+
+.link-arrow {
+    svg path {
+        fill: #7b7b7b;
+    }
+    &:hover svg path {
+        fill: #000000;
+    }
+    @include ssm {
+        display:none ;
+    }
+}
+
+
+.span-link {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #565656;
+    @include ssm {
+        display:none ;
+    }
+}

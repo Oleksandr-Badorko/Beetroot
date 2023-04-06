@@ -1,0 +1,98 @@
+@import "./responsive";
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 3;
+    &__container {
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+
+        @include md {
+            margin: 0 34px 0 34px;
+        }
+        @include ssm {
+            margin: 0 0px 0 10px;
+        }
+        &navigation {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 42px;
+            position: relative;
+            @include md {
+                position: absolute;
+                right: 0%;
+                top: 100%;
+                flex-direction: column;
+                width: 50%;
+                background-color: white;
+                gap: 10px;
+                -webkit-box-shadow: 0px 0px 10px 5px rgba(156, 130, 156, 0.5);
+                -moz-box-shadow: 0px 0px 10px 5px rgba(156, 130, 156, 0.5);
+                box-shadow: 0px 0px 10px 5px rgba(156, 130, 156, 0.5);
+                display: none;
+
+                &.is-active {display: flex;}
+            }
+            @include ssm {
+                position: absolute;
+                right: 0%;
+                top: 100%;
+                flex-direction: column;
+                width: 50%;
+                background-color: white;
+                gap: 10px;
+                -webkit-box-shadow: 0px 0px 10px 5px rgba(156, 130, 156, 0.5);
+                -moz-box-shadow: 0px 0px 10px 5px rgba(156, 130, 156, 0.5);
+                box-shadow: 0px 0px 10px 5px rgba(156, 130, 156, 0.5);
+                display: none;
+
+                &.is-active {display: flex;}
+            }
+            &-item {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                letter-spacing: 0.3em;
+                text-transform: uppercase;
+                color: #000000;
+            }
+        }
+    }
+    .header__container-search {
+        display: flex;
+        justify-content: space-between;
+        gap: 84px;
+
+        @include md {
+            display: flex;
+            gap: 40px;
+            flex-direction: row-reverse;
+        }
+        @include ssm {
+            display: flex;
+            gap: 0;
+            margin-left: 50px;
+            flex-direction: row-reverse;
+        }
+        }
+}
+
+.hamburger {
+    display: none;
+
+    @include md {
+        display: inline-block;
+    }
+}

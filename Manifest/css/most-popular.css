@@ -1,0 +1,116 @@
+.main__blog__most__popular {
+  display: flex;
+  flex-direction: column;
+}
+.main__blog__most__popular .most-popular-img {
+  margin-bottom: 20px;
+}
+.main__blog__most__popular__heading {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 792px;
+  margin-bottom: 50px;
+}
+.main__blog__most__popular__heading-title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  white-space: nowrap;
+}
+.main__blog__most__popular__heading-view {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7b7b7b;
+  white-space: nowrap;
+  position: relative;
+}
+.main__blog__most__popular__heading-view .arrow-img {
+  position: absolute;
+  left: 80px;
+  top: 7px;
+}
+.main__blog__most__popular__articles {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.main__blog__most__popular__articles__post__heading {
+  display: flex;
+  flex-direction: row;
+  gap: 376px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.main__blog__most__popular__articles__post__heading-tag {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7b7b7b;
+}
+.main__blog__most__popular__articles__post__heading-date {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7b7b7b;
+}
+.main__blog__most__popular__articles__post-title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.main__blog__most__popular__articles__post-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}
+
+.main__blog__most__popular__container {
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+.main__blog__most__popular__container-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 180px;
+  height: 46px;
+  background: #565656;
+}
+.main__blog__most__popular__container-button .button-text {
+  width: 90px;
+  height: 27px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+}

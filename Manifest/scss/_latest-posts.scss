@@ -1,0 +1,263 @@
+@import "./responsive";
+
+.main__blog__latest__heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 40px;
+    @include ssm {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 70px;
+    }
+    &-title {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #000000;
+        @include ssm {
+            margin-bottom: 10px;
+        }
+    }
+    &-view {
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 166%;
+        letter-spacing: 0.1em;
+        color: #7b7b7b;
+        position: relative;
+        margin-right: 46px;
+        .arrow-img {
+            position: absolute;
+            left: 80px;
+            top: 7px;
+        }
+    }
+}
+
+.main__blog__latest__posts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    margin-bottom: 90px;
+    .img_page {
+        margin-bottom: 25px;
+    }
+    .main__blog__latest__posts__page__heading {
+        display: flex;
+        flex-direction: row;
+        gap: 180px;
+        margin-bottom: 25px;
+        .main__blog__latest__posts__page__heading-tag {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 166%;
+            letter-spacing: 0.1em;
+            color: #7b7b7b;
+        }
+        .main__blog__latest__posts__page__heading-date {
+            font-family: "Lato";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 166%;
+            letter-spacing: 0.1em;
+            color: #7b7b7b;
+        }
+    }
+}
+
+.main__blog__latest__posts__page__description-title {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 166%;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.main__blog__latest__posts__page__description-text {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 166%;
+    letter-spacing: 0.05em;
+    color: #565656;
+}
+
+@include md {
+    .main__blog__latest__posts {
+        display: flex;
+        flex-direction: column;
+        margin: 0 34px 0 34px;
+        .main__blog__latest__posts__page-1 {
+            display: flex;
+            .main__blog__latest__posts__page-1-span {
+                display: flex;
+                flex-direction: column;
+                padding-left: 20px;
+            }
+        }
+        .main__blog__latest__posts__page-2 {
+            display: flex;
+            flex-direction: row-reverse;
+            .main__blog__latest__posts__page-2 {
+                display: flex;
+                .main__blog__latest__posts__page-2-span {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+        .main__blog__latest__posts__page-3 {
+            display: flex;
+            flex-direction: row;
+            .main__blog__latest__posts__page-3 {
+                display: flex;
+                .main__blog__latest__posts__page-3-span {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
+
+@include md {
+    .main__blog__latest__posts__page__heading {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0px;
+        white-space: nowrap;
+    }
+
+    .main__blog__latest__posts__page__description-title {
+        font-size: 22px;
+    }
+
+    .main__blog__latest__posts__page__description {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.lamp-img img {
+    @include md {
+        padding-left: 18px;
+        max-width: 340px;
+        max-height: 240px;
+    }
+}
+.arrow-to-the-left img {
+    @include md {
+        max-width: 340px;
+        max-height: 240px;
+        padding-left: 20px;
+    }
+}
+
+.img-house img {
+    @include md {
+        max-width: 340px;
+        max-height: 240px;
+        padding-right: 20px;
+    }
+}
+
+
+
+@include ssm {
+    .main__blog__latest__posts {
+        display: flex;
+        flex-direction: column;
+        .main__blog__latest__posts__page__heading {
+            gap: 0px;
+        }
+        .main__blog__latest__posts__page-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 0px;
+            margin-bottom: 50px;
+            .main__blog__latest__posts__page-1-span {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0px;
+            }
+        }
+        .main__blog__latest__posts__page-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+            .main__blog__latest__posts__page-2 {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0px;
+                
+                .main__blog__latest__posts__page-2-span {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0px;
+                }
+            }
+        }
+        .main__blog__latest__posts__page-3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .main__blog__latest__posts__page-3 {
+                display: flex;
+                flex-direction: column;
+                padding-left: 0px;
+                
+                .main__blog__latest__posts__page-3-span {
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+.lamp-img img {
+    @include ssm {
+        padding-left: 0;
+        margin-left: 0;
+        max-width: 310px;
+        max-height: 210px;
+    }
+}
+.arrow-to-the-left img {
+    @include ssm {
+        padding-left: 0;
+        margin-left: 0;
+        max-width: 300px;
+        max-height: 210px;
+    }
+}
+
+.img-house img {
+    @include ssm {
+        padding-left: 0;
+        margin-left: 0;
+        max-width: 300px;
+        max-height: 210px;
+    }
+}

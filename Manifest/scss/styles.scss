@@ -1,0 +1,24 @@
+@import "../scss/reset";
+@import "./responsive";
+@import "./header";
+@import "./first-screen";
+@import "./blog";
+@import "./latest-posts";
+@import "./most-popular";
+@import "./main-blog-info";
+@import "./footer";
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper-header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper-screen {
+    max-width: 1440px;
+    margin: 0 auto;
+}

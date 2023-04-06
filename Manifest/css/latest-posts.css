@@ -1,0 +1,90 @@
+.main__blog__latest__heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+.main__blog__latest__heading-title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.main__blog__latest__heading-view {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7b7b7b;
+  position: relative;
+  margin-right: 46px;
+}
+.main__blog__latest__heading-view .arrow-img {
+  position: absolute;
+  left: 80px;
+  top: 7px;
+}
+
+.main__blog__latest__posts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  margin-bottom: 90px;
+}
+.main__blog__latest__posts .img_page {
+  margin-bottom: 25px;
+}
+.main__blog__latest__posts .main__blog__latest__posts__page__heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.main__blog__latest__posts .main__blog__latest__posts__page__heading .main__blog__latest__posts__page__heading-tag {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7b7b7b;
+}
+.main__blog__latest__posts .main__blog__latest__posts__page__heading .main__blog__latest__posts__page__heading-date {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #7b7b7b;
+}
+
+.main__blog__latest__posts__page__description-title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 166%;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.main__blog__latest__posts__page__description-text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166%;
+  letter-spacing: 0.05em;
+  color: #565656;
+}

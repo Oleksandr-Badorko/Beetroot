@@ -1,0 +1,48 @@
+@import "./responsive";
+
+.first-screen {
+    max-width: 1440px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    position: relative;
+
+    @include md {
+        max-width: 768px;
+        max-height: 320px;
+    }
+    .manifest-text {
+        font-family: "Red Hat Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        position: absolute;
+        left: 120px;
+        top: 100px;
+        z-index: 2;
+
+        @include md {
+            font-size: 36px;
+            line-height: 50px;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+        @include ssm {
+            font-size: 18px;
+            line-height: 20px;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+    }
+}
+
+.first-screen img {
+    @include md {
+        max-width: 100%;
+    }
+}
+
