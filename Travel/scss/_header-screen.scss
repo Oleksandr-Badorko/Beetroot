@@ -1,0 +1,95 @@
+@import "./stylesheet";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.header {
+   width: 100%;
+   background-image: url(../assets/img/background/HeaderBackground.svg);
+   height: 862px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+
+   &__title {
+      @include header-title("Josefin Sans", normal, #fff);
+      margin-top: 295px;
+      font-weight: $fw700;
+      font-size: $fz48;
+      line-height: $lh52;
+      text-align: $tacen;
+      justify-content: $jccen;
+      text-transform: uppercase;
+   }
+
+   &__subtitle {
+      @include header-title("Josefin Sans", normal, #fff);
+      @include header-text-style(22px, 400, 28px);
+      margin-top: 8px;
+      text-align: $tacen;
+      letter-spacing: $ls031;
+      margin-bottom: 48px;
+   }
+   .header__search-form {
+      background-color: $colorwhite;
+      display: flex;
+      max-width: 647px;
+      height: 60px;
+      margin: $margin-center;
+      justify-content: $jcspbet;
+      align-items: $aicen;
+      padding-right: 4px;
+      margin-bottom: 211px;
+      &:hover {
+         border: 2px solid $colorblue;
+      }
+      &-text {
+         @include header-title("Josefin Sans", normal, #fff);
+         display: flex;
+         width: 100%;
+         font-weight: $fw400;
+         font-size: $fz14;
+         line-height: $lh20;
+         letter-spacing: $ls02;
+         color: $colorgrey;
+         padding-left: 36px;
+      }
+      &-button {
+         @include aleo("Aleo", normal, #fff);
+         display: flex;
+         gap: 10px;
+         align-items: $aicen;
+         justify-content: $jccen;
+         background-color: $colorblue;
+         padding: 16px 24px;
+         width: 139px;
+         height: 52px;
+         font-weight: $fw400;
+         font-size: $fz14;
+         line-height: $lh20;
+         letter-spacing: $ls01;
+         text-transform: $ttup;
+         &:hover {
+            background-color: $colorwhite;
+            border: 2px solid $colorblue;
+            color: $colorblue;
+         }
+      }
+   }
+   &__scroll {
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      &-text {
+         @include header-title("Josefin Sans", normal, #fff);
+         font-weight: $fw400;
+         font-size: $fz14;
+         text-align: $tacen;
+         letter-spacing: $ls02;
+      }
+      .arrow-bottom {
+         display: flex;
+         align-self: flex-end;
+      }
+   }
+}

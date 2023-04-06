@@ -1,0 +1,89 @@
+@import "./stylesheet";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.navheader {
+    width: 100%;
+    height: 84px;
+    background-color: $colorblue;
+    display: flex;
+    align-items: center;
+    @include rwd(577px, 768px) {
+       height: 136px;
+    }
+    @include sm {
+       height: 84px;
+    }
+ 
+    .navheader__container {
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       @include sm {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+       }
+ 
+       &-logo {
+          @include header-title("Josefin Sans", normal, #fff);
+          font-weight: $fw700;
+          font-size: $fz24;
+          line-height: $lh28;
+          letter-spacing: $ls01;
+          text-transform: $ttup;
+          @include sm {
+             display: inline-flex;
+          }
+       }
+ 
+       .navheader__container__list__menu {
+          @include navigation("Aleo", normal, 400, 14px, 20px, #fff, uppercase);
+          max-width: 575px;
+          display: flex;
+          gap: 40px;
+          cursor: pointer;
+          @include md {
+            display: flex;
+            
+          }
+          @include sm {
+               position: absolute;
+               display: none;
+               justify-content: center;
+               align-items: center;
+               right: 0%;
+               top: 94%;
+               flex-direction: column;
+               width: 100%;
+               background: $colorblue;
+               gap: 24px;
+               z-index: 10;
+               &.is-active {display: flex;}
+          }
+       }
+ 
+       .navheader__container__list__menu-item {
+          @include navigation("Aleo", normal, 400, 14px, 20px, #fff, uppercase);
+          opacity: 0.8;
+       }
+       .navheader__container__list__menu-item:hover {
+          opacity: 1;
+       }
+    }
+    
+ }
+
+ .hamburger {
+   display: none;
+
+   @include sm {
+      position: absolute;
+      right: 3%;
+      top:89%;
+      display: flex;
+      
+   }
+}

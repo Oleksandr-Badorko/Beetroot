@@ -1,0 +1,153 @@
+@import "./stylesheet";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+ 
+ .main__whyblock {
+    width: 100%;
+    height: 704px;
+    background-image: url(../assets/img/background/WhyBackground.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
+    @include md {
+       height: 659px;
+    }
+ 
+    @include sm {
+       height: 630px;
+    }
+ 
+    .main__whyblock__container {
+       display: flex;
+       padding-top: 124px;
+       padding-bottom: 124px;
+       max-width: 1360px;
+       justify-content: space-between;
+ 
+       @include md {
+          padding-top: 60px;
+          padding-bottom: 60px;
+          display: flex;
+          flex-direction: column-reverse;
+       }
+ 
+       @include sm {
+          padding-top: 60px;
+          padding-bottom: 60px;
+       }
+ 
+       &__content {
+          margin-top: 66px;
+          max-width: 558px;
+ 
+          @include md {
+             max-width: 768px;
+             margin-top: 32px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+          }
+ 
+          @include sm {
+             max-width: 576px;
+             margin-top: 37px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+          }
+ 
+          &-title {
+            @include text-section-style ("Aleo", normal, 400, #fff);
+             
+             font-size: 36px;
+             line-height: 40px;
+             text-transform: capitalize;
+             
+             margin-bottom: 24px;
+             @include sm {
+                margin-bottom: 19px;
+             }
+          }
+ 
+          &__text {
+             margin-bottom: 32px;
+ 
+             @include md {
+                margin-bottom: 24px;
+             }
+ 
+             .parone {
+                margin-bottom: 20px;
+             }
+          }
+          .main__whyblock__container__content__text-parapgraph {
+            @include header-title("Josefin Sans", normal, #fff);
+             font-weight: 300;
+             font-size: 16px;
+             line-height: 28px;
+             letter-spacing: 0.1em;
+             opacity: 0.5;
+          }
+       }
+ 
+       .main__whyblock__container__imgs {
+          width: 461px;
+          display: flex;
+          flex-direction: column;
+          row-gap: 16px;
+          z-index: 0;
+ 
+          @include md {
+             display: flex;
+             flex-direction: row;
+             max-width: 720px;
+             gap: 24px;
+             row-gap: 0px;
+ 
+             @include md {
+                width: 100%;
+                height: auto;
+ 
+                .section2img {
+                   width: 100%;
+                   height: auto;
+                }
+             }
+          }
+ 
+          .main__whyblock__container__imgs {
+             max-width: 348px;
+             height: auto;
+          }
+ 
+          .pic1 {
+             align-self: flex-start;
+          }
+ 
+          .pic2 {
+             align-self: flex-end;
+          }
+       }
+    }
+ }
+
+ .main__whyblock__container__content-button {
+    width: 213px;
+    height: 60px;
+    @include text-section-style ("Aleo", normal, 400, #fff);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    background-color: $colorblue;
+    cursor: pointer;
+ 
+    &:hover {
+       background-color: $colorwhite;
+       border: 2px solid $colorblue;
+       color: $colorblue;
+    }
+ }

@@ -1,0 +1,136 @@
+@import "./stylesheet";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.userfeedback {
+    width: 100%;
+    height: 708px;
+    background-image: url(../assets/img/background/BG.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+ 
+    @include lg {
+       height: 736px;
+    }
+ 
+    @include md {
+       padding-top: 60px;
+       height: 924px;
+    }
+ 
+    @include sm {
+       padding-top: 60px;
+       height: 980px;
+    }
+ 
+    .userfeedback-title {
+       font-family: "Aleo";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 36px;
+       line-height: 40px;
+       text-align: center;
+       text-transform: capitalize;
+       color: #ffffff;
+       text-align: center;
+       margin-bottom: 60px;
+    }
+ 
+    .userfeedback__container {
+       max-width: 1140px;
+       height: 336px;
+       display: flex;
+ 
+       @include lg {
+          height: 336px;
+       }
+ 
+       @include md {
+          flex-direction: column;
+       }
+ 
+       .userfeedback__container__picture {
+          @include md {
+             width: 100%;
+             height: auto;
+          }
+ 
+          .user-img {
+             @include md {
+                width: 100%;
+                height: auto;
+             }
+          }
+       }
+ 
+       .userfeedback__container__content {
+          max-width: 760px;
+          max-height: 308px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 24px;
+          background-color: $color-black;
+ 
+          @include lg {
+             height: 100%;
+             width: 100%;
+          }
+ 
+          @include lg2 {
+             padding: 40px;
+             width: 100%;
+             max-height: 338px;
+          }
+ 
+          @include md {
+             padding: 40px;
+             width: 100%;
+             height: 100%;
+          }
+ 
+          @include sm {
+             padding: 40px;
+             width: 100%;
+             height: 100%;
+          }
+ 
+          .userfeedback__container__content-title {
+             font-family: "Josefin Sans";
+             font-style: normal;
+             font-weight: 400;
+             font-size: 20px;
+             line-height: 28px;
+             text-transform: uppercase;
+             color: #ffffff;
+             margin-bottom: 10px;
+ 
+              @include lg2 {
+             padding-top: 28px;
+          }
+          }
+          .userfeedback__container__content-text {
+             font-family: "Josefin Sans";
+             font-style: normal;
+             font-weight: 300;
+             font-size: 16px;
+             line-height: 28px;
+             letter-spacing: 0.1em;
+             color: #ffffff;
+             opacity: 0.6;
+          }
+       }
+    }
+ }
+ 
+ .quote {
+    width: 20px;
+    height: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    color: $colorblue;
+ }
+ 

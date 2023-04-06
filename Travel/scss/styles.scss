@@ -1,0 +1,36 @@
+@import "../assets/fontawesome/css/fontawesome.css";
+@import "../assets/fontawesome/css/brands.css";
+@import "../assets/fontawesome/css/solid.css";
+@import "./reset";
+@import "./stylesheet";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+@import "./header-screen";
+@import "./navheader";
+@import "./why-section";
+@import "./booking";
+@import "./book-options";
+@import "./userfeedback";
+@import "./footer";
+
+.wrapper {
+   max-width: 1360px;
+   width: 100%;
+   padding-right: 110px;
+   padding-left: 110px;
+   margin: $margin-center;
+   @include lg {
+      padding-right: 32px;
+      padding-left: 32px;
+   }
+   @include md {
+      padding-right: 24px;
+      padding-left: 24px;
+   }
+   @include sm {
+      padding-right: 18px;
+      padding-left: 18px;
+   }
+}
+

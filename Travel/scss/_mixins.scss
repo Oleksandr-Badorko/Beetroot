@@ -1,0 +1,36 @@
+@import "./variables";
+
+@mixin header-title($ffjossan, $fsn, $colorwhite) {
+  font-family: $ffjossan;
+  font-style: $fsn;
+  color: $colorwhite;
+}
+
+@mixin text-section-style($ffaleo, $ffn, $fw400, $colorwhite) {
+  font-family: $ffaleo;
+  font-style: $ffn;
+  font-weight: $fw400;
+  color: $colorwhite;
+}
+
+@mixin header-text-style($fz22, $fw400, $lh28px) {
+  font-size: $fz22;
+  font-weight: $fw400;
+  line-height: $lh28px;
+}
+
+@mixin aleo($ffaleo, $fsn, $colorwhite) {
+  font-family: $ffaleo;
+  font-style: $fsn;
+  color: $colorwhite;
+}
+
+@mixin navigation($ffaleo, $fsn, $fw400, $fz14, $lh20, $colorwhite, $ttup) {
+  font-family: $ffaleo;
+  font-style: $fsn;
+  font-weight: $fw400;
+  font-size: $fz14;
+  line-height: $lh20;
+  color: $colorwhite;
+  text-transform: $ttup;
+}

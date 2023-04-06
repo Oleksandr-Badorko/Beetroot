@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Hamburger -->
+    <link rel="stylesheet" href="./scss/_hamburger.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Travel with us</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="wrapper">
+        <h1 class="header__title">bhromaon</h1>
+        <h2 class="header__subtitle">Safe Travel Anywhere</h2>
+        <form class="header__search-form">
+          <input
+            class="header__search-form-text"
+            type="search"
+            placeholder="Search Your Travel Destination"
+          />
+          <button class="header__search-form-button">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_2_495)">
+                <path
+                  d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z"
+                  class="icon"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clippath id="clip0_2_495">
+                  <rect width="16" height="16" fill="white" class="icon" />
+                </clippath>
+              </defs>
+            </svg>
+            <span class="search__text">Search</span>
+          </button>
+        </form>
+        <div class="header__scroll">
+          <div class="header__scroll-text">
+            Scroll Down<br /><br />
+            <i
+              class="fa-sharp fa-regular fa-chevron-down"
+              style="color: #ffffff"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="navheader">
+      <div class="wrapper">
+        <div class="navheader__container">
+          <h3 class="navheader__container-logo">bhromaon</h3>
+          <nav class="navheader__container__list">
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+            <ul class="navheader__container__list__menu">
+              <li>
+                <a class="navheader__container__list__menu-item" href="#">
+                  who we are
+                </a>
+              </li>
+              <li>
+                <a class="navheader__container__list__menu-item" href="#">
+                  what we do
+                </a>
+              </li>
+              <li>
+                <a class="navheader__container__list__menu-item" href="#">
+                  travel with us
+                </a>
+              </li>
+              <li>
+                <a class="navheader__container__list__menu-item" href="#">
+                  contact us
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <script>
+      const hamburgerElm = document.querySelector('.hamburger');
+      const menuElm = document.querySelector('.navheader__container__list__menu');
+      
+      hamburgerElm.addEventListener('click', () => {
+        hamburgerElm.classList.toggle('is-active');
+        menuElm.classList.toggle('is-active');
+      });
+    </script>
+    <main class="main">
+      <section class="main__whyblock">
+        <div class="wrapper">
+          <div class="main__whyblock__container">
+            <div class="main__whyblock__container__content">
+              <h2 class="main__whyblock__container__content-title">
+                Why Choose Us
+              </h2>
+              <div class="main__whyblock__container__content__text text">
+                <p
+                  class="main__whyblock__container__content__text-parapgraph parone"
+                >
+                  Tion and dislike men who are so beguiled and demoralized by
+                  desire by the charms of pleasure of the moment, so blinded by
+                  desire, that they cannot foresee
+                </p>
+                <p
+                  class="main__whyblock__container__content__text-parapgraph partwo"
+                >
+                  Ddislike men who are so beguiled and demoralized by the charms
+                  of pleasure of the moment, so blinded by desire, that.
+                </p>
+              </div>
+              <button
+                class="main__whyblock__container__content-button"
+                type="button"
+              >
+                EXPLORE PLACES
+              </button>
+            </div>
+            <div class="main__whyblock__container__imgs">
+              <div class="main__whyblock__container__imgs pic1">
+                <img
+                  class="section2img"
+                  src="./assets/img/small-img/Image-1.svg"
+                  alt="Sea"
+                />
+              </div>
+              <div class="main__whyblock__container__imgs pic2">
+                <img
+                  class="section2img"
+                  src="./assets/img/small-img/Image-2.svg"
+                  alt="Mountain"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="booking">
+        <div class="wrapper">
+          <div class="booking__container">
+            <div class="booking__container__item b1">
+              <img
+                class="booking__container__item-icon"
+                src="./assets/img/icons/search.svg"
+                alt="search"
+              />
+              <h2 class="booking__container__item-title">Search Places</h2>
+            </div>
+            <div class="booking__container__item b2">
+              <img
+                class="booking__container__item-icon"
+                src="./assets/img/icons/check-circle.svg"
+                alt="select"
+              />
+              <h2 class="booking__container__item-title">Select Places</h2>
+            </div>
+            <div class="booking__container__item b3">
+              <img
+                class="booking__container__item-icon"
+                src="./assets/img/icons/thumbs-up.svg"
+                alt="like"
+              />
+              <h2 class="booking__container__item-title">Book&Enjoy</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="book">
+        <div class="wrapper">
+          <div class="book__container">
+            <h3 class="book__container-tag">Spain</h3>
+            <h2 class="book__container-title">GRAND SPAIN MADRID</h2>
+            <p class="book__container-text">
+              But I must explain to you how all this mistaken idea of account to
+              denouncing pleasure and praising pain was account born and I
+              account will give you a complete account of the system
+            </p>
+            <button class="book__container-button">BOOK NOW</button>
+          </div>
+        </div>
+      </section>
+      <section class="book book2">
+        <div class="wrapper">
+          <div class="book__block booktwo">
+            <div class="book__container">
+              <h6 class="book__container-tag">Spain</h6>
+              <h5 class="book__container-title">GRAND SPAIN MADRID</h5>
+              <p class="book__container-text">
+                But I must explain to you how all this mistaken idea of account
+                to denouncing pleasure and praising pain was account born and I
+                account will give you a complete account of the system
+              </p>
+              <button class="book__container-button">BOOK NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="userfeedback">
+        <div class="wrapper">
+          <h2 class="userfeedback-title">What Our Tourists Say</h2>
+          <div class="userfeedback__container">
+            <div class="userfeedback__container__picture">
+              <picture class="userfeedback__container__picture-item">
+                <source
+                  class="user-img"
+                  srcset="./assets/img/small-img/ReviewPhoto4.jpg"
+                  media="(max-width: 576px)"
+                />
+                <source
+                  class="user-img user-img3"
+                  srcset="./assets/img/small-img/ReviewPhoto3.jpg"
+                  media="(max-width: 768px)"
+                />
+                <source
+                  class="user-img"
+                  srcset="./assets/img/small-img/ReviewPhoto2.jpg"
+                  media="(max-width: 1024px)"
+                />
+                <img
+                  src="./assets/img/small-img/ReviewPhoto.jpg"
+                  alt="tourist"
+                  class="user-img"
+                />
+              </picture>
+            </div>
+            <div class="userfeedback__container__content">
+              <h2 class="userfeedback__container__content-title">SAM SUMON</h2>
+              <p class="userfeedback__container__content-text">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.125 10H15V7.5C15 6.12109 16.1211 5 17.5 5H17.8125C18.332 5 18.75 4.58203 18.75 4.0625V2.1875C18.75 1.66797 18.332 1.25 17.8125 1.25H17.5C14.0469 1.25 11.25 4.04688 11.25 7.5V16.875C11.25 17.9102 12.0898 18.75 13.125 18.75H18.125C19.1602 18.75 20 17.9102 20 16.875V11.875C20 10.8398 19.1602 10 18.125 10ZM6.875 10H3.75V7.5C3.75 6.12109 4.87109 5 6.25 5H6.5625C7.08203 5 7.5 4.58203 7.5 4.0625V2.1875C7.5 1.66797 7.08203 1.25 6.5625 1.25H6.25C2.79688 1.25 0 4.04688 0 7.5V16.875C0 17.9102 0.839844 18.75 1.875 18.75H6.875C7.91016 18.75 8.75 17.9102 8.75 16.875V11.875C8.75 10.8398 7.91016 10 6.875 10Z"
+                    fill="#5373FD"
+                  />
+                </svg>
+                But I must explain to you how all this mistaken idea of account
+                to denouncinpleasure and praising pain But I must explain to you
+                how all this mistaken idea of account to nai denouncing pleasure
+                and praising pain was account born and I account will give you a
+                complete account of the system was account born and I account
+                will give you a nai the complete account of the system
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="wrapper">
+          <div class="footer__container">
+            <h3 class="footer__container-title">bhromaon</h3>
+            <p class="footer__container-subtitle">Safe Travel Anywhere</p>
+            <div class="footer__container__socials">
+              <svg
+                width="20"
+                height="32"
+                viewBox="0 0 20 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="footer__container__socials__item"
+              >
+                <path
+                  d="M17.4463 18L18.335 12.2087H12.7782V8.45063C12.7782 6.86625 13.5544 5.32188 16.0432 5.32188H18.5694V0.39125C18.5694 0.39125 16.2769 0 14.085 0C9.50879 0 6.51754 2.77375 6.51754 7.795V12.2087H1.43066V18H6.51754V32H12.7782V18H17.4463Z"
+                  fill="white"
+                  class="icon"
+                />
+              </svg>
+
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="footer__container__socials__item"
+              >
+                <path
+                  d="M28.7106 9.48225C28.7309 9.7665 28.7309 10.0508 28.7309 10.3351C28.7309 19.0051 22.132 28.9949 10.0711 28.9949C6.35531 28.9949 2.90356 27.9188 0 26.0508C0.527937 26.1117 1.0355 26.132 1.58375 26.132C4.64969 26.132 7.47206 25.0965 9.72587 23.33C6.84262 23.2691 4.42637 21.3808 3.59387 18.7818C4 18.8426 4.40606 18.8833 4.8325 18.8833C5.42131 18.8833 6.01019 18.802 6.55837 18.6599C3.55331 18.0508 1.29944 15.4112 1.29944 12.2234V12.1422C2.1725 12.6295 3.18781 12.9341 4.26388 12.9746C2.49738 11.7969 1.34006 9.78681 1.34006 7.51269C1.34006 6.29444 1.66488 5.17769 2.23344 4.20306C5.46187 8.18275 10.3147 10.7817 15.7563 11.066C15.6548 10.5787 15.5938 10.0711 15.5938 9.5635C15.5938 5.94925 18.5177 3.00513 22.1522 3.00513C24.0405 3.00513 25.7461 3.797 26.9441 5.07619C28.4263 4.79194 29.8476 4.24369 31.1065 3.49244C30.6191 5.01531 29.5836 6.2945 28.2232 7.10663C29.5431 6.96456 30.8222 6.599 31.9999 6.09144C31.1066 7.39088 29.9898 8.54819 28.7106 9.48225Z"
+                  fill="white"
+                  class="icon"
+                />
+              </svg>
+              <svg
+                width="28"
+                height="32"
+                viewBox="0 0 28 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="footer__container__socials__item"
+              >
+                <path
+                  d="M26 2H1.99375C0.89375 2 0 2.90625 0 4.01875V27.9813C0 29.0938 0.89375 30 1.99375 30H26C27.1 30 28 29.0938 28 27.9813V4.01875C28 2.90625 27.1 2 26 2ZM8.4625 26H4.3125V12.6375H8.46875V26H8.4625ZM6.3875 10.8125C5.05625 10.8125 3.98125 9.73125 3.98125 8.40625C3.98125 7.08125 5.05625 6 6.3875 6C7.7125 6 8.79375 7.08125 8.79375 8.40625C8.79375 9.7375 7.71875 10.8125 6.3875 10.8125ZM24.0187 26H19.8687V19.5C19.8687 17.95 19.8375 15.9563 17.7125 15.9563C15.55 15.9563 15.2188 17.6438 15.2188 19.3875V26H11.0688V12.6375H15.05V14.4625H15.1062C15.6625 13.4125 17.0188 12.3062 19.0375 12.3062C23.2375 12.3062 24.0187 15.075 24.0187 18.675V26Z"
+                  fill="white"
+                  class="icon"
+                />
+              </svg>
+              <svg
+                width="36"
+                height="32"
+                viewBox="0 0 36 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="footer__container__socials__item"
+              >
+                <path
+                  d="M34.3534 7.75519C33.9609 6.27706 32.8042 5.11294 31.3357 4.71788C28.6738 4 18 4 18 4C18 4 7.32623 4 4.66429 4.71788C3.19573 5.113 2.0391 6.27706 1.64654 7.75519C0.933289 10.4344 0.933289 16.0243 0.933289 16.0243C0.933289 16.0243 0.933289 21.6141 1.64654 24.2933C2.0391 25.7714 3.19573 26.8871 4.66429 27.2821C7.32623 28 18 28 18 28C18 28 28.6737 28 31.3357 27.2821C32.8042 26.8871 33.9609 25.7714 34.3534 24.2933C35.0667 21.6141 35.0667 16.0243 35.0667 16.0243C35.0667 16.0243 35.0667 10.4344 34.3534 7.75519ZM14.509 21.0994V10.9491L23.4302 16.0244L14.509 21.0994Z"
+                  fill="white"
+                  class="icon"
+                />
+              </svg>
+              <svg
+                width="31"
+                height="32"
+                viewBox="0 0 31 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="footer__container__socials__item"
+              >
+                <g clip-path="url(#clip0_2_436)">
+                  <path
+                    d="M31 16C31 24.5625 24.0625 31.5 15.5 31.5C13.9 31.5 12.3625 31.2563 10.9125 30.8062C11.5438 29.775 12.4875 28.0875 12.8375 26.7437C13.025 26.0187 13.8 23.0562 13.8 23.0562C14.3063 24.0187 15.7812 24.8375 17.35 24.8375C22.025 24.8375 25.3937 20.5375 25.3937 15.1938C25.3937 10.075 21.2125 6.24375 15.8375 6.24375C9.15 6.24375 5.59375 10.7312 5.59375 15.625C5.59375 17.9 6.80625 20.7313 8.7375 21.6313C9.03125 21.7688 9.1875 21.7062 9.25625 21.425C9.30625 21.2125 9.56875 20.1562 9.6875 19.6688C9.725 19.5125 9.70625 19.375 9.58125 19.225C8.95 18.4438 8.4375 17.0187 8.4375 15.6875C8.4375 12.2688 11.025 8.9625 15.4375 8.9625C19.2437 8.9625 21.9125 11.5562 21.9125 15.2688C21.9125 19.4625 19.7938 22.3687 17.0375 22.3687C15.5188 22.3687 14.375 21.1125 14.7437 19.5688C15.1812 17.725 16.025 15.7375 16.025 14.4062C16.025 13.2188 15.3875 12.225 14.0625 12.225C12.5063 12.225 11.2563 13.8313 11.2563 15.9875C11.2563 17.3625 11.7188 18.2875 11.7188 18.2875C11.7188 18.2875 10.1875 24.775 9.90625 25.9875C9.59375 27.325 9.71875 29.2125 9.85 30.4375C4.0875 28.1812 0 22.5688 0 16C0 7.4375 6.9375 0.5 15.5 0.5C24.0625 0.5 31 7.4375 31 16Z"
+                    fill="white"
+                    class="icon"
+                  />
+                </g>
+                <defs>
+                  <clippath id="clip0_2_436">
+                    <rect width="31" height="32" class="icon" />
+                  </clippath>
+                </defs>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

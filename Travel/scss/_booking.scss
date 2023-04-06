@@ -1,0 +1,50 @@
+@import "./stylesheet";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.booking {
+    background-color: $color-black;
+    height: 306px;
+    @include md {
+       height: 658px;
+    }
+    @include sm {
+       height: 658px;
+    }
+ 
+    .booking__container {
+       display: flex;
+       justify-content: space-between;
+       @include md {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+       }
+ 
+       .booking__container__item {
+          max-width: 364px;
+          text-align: center;
+          margin-top: 138px;
+          cursor: pointer;
+          opacity: 0.8;
+          &:hover {
+             opacity: 1;
+          }
+          @include md {
+             margin-top: 75px;
+          }
+ 
+          .booking__container__item-icon {
+             margin-bottom: 20px;
+          }
+          .booking__container__item-title {
+             @include text-section-style ("Aleo", normal, 400, #fff);
+             font-size: 36px;
+             line-height: 40px;
+             text-align: center;
+             text-transform: capitalize;
+          }
+       }
+    }
+ }

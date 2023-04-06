@@ -1,0 +1,101 @@
+@import "./stylesheet";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.book {
+    width: 100%;
+    height: 712px;
+    background-image: url(../assets/img/background/render-1477041_1280\ _1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    padding-bottom: 10px;
+ 
+    @include md {
+       height: 588px;
+       padding-top: 120px;
+    }
+ 
+    @include sm {
+       height: 616px;
+       padding-top: 120px;
+    }
+ 
+    &__container {
+       max-width: 558px;
+       height: auto;
+       background-color: rgba(35, 35, 35, 0.9);
+       padding: 44px 32px;
+ 
+       @include md {
+          max-width: 720px;
+       }
+ 
+       @include sm {
+          max-width: 540px;
+       }
+ 
+       &-tag {
+          @include header-title("Josefin Sans", normal, #fff);
+          font-weight: $fw300;
+          font-size: $fz20;
+          line-height: $lh28;
+          letter-spacing: $ls01;
+          margin-bottom: 16px;
+          opacity: 0.5;
+       }
+ 
+       &-title {
+          @include header-title("Josefin Sans", normal, #fff);
+          font-weight: $fw400;
+          font-size: $fz20;
+          line-height: $lh28;
+          text-transform: $ttup;
+          margin-bottom: 16px;
+       }
+ 
+       &-text {
+          @include header-title("Josefin Sans", normal, #fff);
+          font-weight: $fw300;
+          font-size: $fz16;
+          line-height: $lh28;
+          letter-spacing: $ls01;
+          margin-bottom: 16px;
+          opacity: 0.5;
+       }
+       &-button {
+          width: 213px;
+          height: 60px;
+          background: $colorblue;
+          @include aleo("Aleo", normal, #fff);
+          font-weight: $fw400;
+          font-size: $fz16;
+          line-height: $lh20;
+          text-align: $tacen;
+          letter-spacing: $ls007;
+          text-transform: $ttup;
+          &:hover {
+             background-color: $colorwhite;
+             border: 2px solid $colorblue;
+             color: $colorblue;
+          }
+       }
+    }
+ }
+ 
+ .book2 {
+    background-image: url(../assets/img/background/spain-1859434_1280_1.svg);
+    width: 100%;
+    height: 712px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 220px;
+    padding-bottom: 10px;
+    .booktwo {
+       display: flex;
+       justify-content: flex-end;
+    }
+ }
