@@ -1,0 +1,47 @@
+/* First task */
+/* div, textarea {
+    width: 75%;
+    margin: 50px auto;
+    padding: 10px;
+    border: 5px solid black;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+} */
+
+/* Second task: */
+/* table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+th {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.active {
+    background-color: gray;
+} */
+
+/* third task */
+/* #frame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    resize: both;
+    overflow: auto;
+}
+#content {
+    font-size: 16px;
+    line-height: 1.5;
+} */
