@@ -1,0 +1,74 @@
+// Small tablets and large smartphones (landscape view)
+$screen-ssm-min: 320px;
+
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+// For than Large device
+$screen-xxl-min: 1400px;
+
+
+// Super small devices
+@mixin ssm {
+    @media (max-width: #{$screen-ssm-min}) {
+        @content;
+    }
+ }
+ 
+// Small devices
+@mixin sm {
+    @media (max-width: #{$screen-sm-min}) {
+        @content;
+    }
+ }
+ 
+ // Medium devices
+ @mixin md {
+    @media (max-width: #{$screen-md-min}) {
+        @content;
+    }
+ }
+ 
+ // Large devices
+ @mixin lg {
+    @media (max-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
+ 
+ // Extra large devices
+ @mixin xl {
+    @media (max-width: #{$screen-xl-min}) {
+        @content;
+    }
+ }
+ 
+ // For than Large device
+ @mixin xxl {
+    @media (max-width: #{$screen-xxl-min}) {
+        @content;
+    }
+ }
+
+
+// Custom devices
+@mixin cwd($screen) {
+    @media (max-width: $screen) {
+        @content;
+    }
+}
+
+// Range width devices
+@mixin rwd($min, $max) {
+    @media (max-width: $min) and (max-width: $max) {
+        @content;
+    }
+}

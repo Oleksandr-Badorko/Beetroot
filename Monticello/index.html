@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="./carousel/owl-carousel/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./carousel/owl-carousel/owl.theme.default.min.css"
+    />
+
+    <link rel="shortcut icon" href="./assets/favicon/fav.ico" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKMZnXONfApXMQ_vp7unUA8aYuw3gHYN4"></script>
+
+    <title>Monticello</title>
+  </head>
+  <body>
+    <!-- FIRST SECTION -->
+    <div class="first scroll-section" id="header">
+      <header class="header">
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">
+            <img src="./assets/logo/Logo.svg" alt="Monticello" />
+          </a>
+        </div>
+        <div class="header__menu">
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="#" class="header__link">
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+                <p class="header__text">About Us</p>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#projects" class="header__link">
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+                <p class="header__text">Projects</p>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#news" class="header__link">
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+                <p class="header__text">News</p>
+              </a>
+            </li>
+            <li class="header__list-item">
+              <a href="#contacts" class="header__link">
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+                <p class="header__text">Contact</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__links">
+          <a href="#" class="header__link" target="_blank">
+            <img src="./assets/socials/facebook.svg" alt="#" />
+          </a>
+          <a href="#" class="haeder__link" target="_blank">
+            <img src="./assets/socials/twitter.svg" alt="#" />
+          </a>
+          <a href="#" class="haeder__link" target="_blank">
+            <img src="./assets/socials/instagram.svg" alt="#" />
+          </a>
+        </div>
+      </header>
+      <article class="motto">
+        <p class="motto__title" id="p1">simple & modern</p>
+        <p class="motto__text" id="p2">We make the world beautiful every day</p>
+      </article>
+      <!-- NAVIGATION DOTS ON THE RIGHT OF THE SCREEN THAT TOGGLE THE SLIDES -->
+      <div class="navigation">
+        <a
+          href="#"
+          class="navigation__dot"
+          data-bg="bg1"
+          data-title="simple & modern"
+          data-text="We make the world beautiful every day"
+        >
+          <img
+            class="navigation__empty"
+            src="./assets/dots/Ellipse.svg"
+            alt="#"
+          />
+          <img
+            class="navigation__full"
+            src="./assets/dots/Ellipse1.svg"
+            alt="#"
+          />
+        </a>
+        <a
+          href="#"
+          class="navigation__dot"
+          data-bg="bg2"
+          data-title="creative solutions"
+          data-text="Innovation at its finest"
+        >
+          <img
+            class="navigation__empty"
+            src="./assets/dots/Ellipse.svg"
+            alt="#"
+          />
+          <img
+            class="navigation__full"
+            src="./assets/dots/Ellipse1.svg"
+            alt="#"
+          />
+        </a>
+        <a
+          href="#"
+          class="navigation__dot"
+          data-bg="bg3"
+          data-title="quality first"
+          data-text="Our commitment to excellence"
+        >
+          <img
+            class="navigation__empty"
+            src="./assets/dots/Ellipse.svg"
+            alt="#"
+          />
+          <img
+            class="navigation__full"
+            src="./assets/dots/Ellipse1.svg"
+            alt="#"
+          />
+        </a>
+        <a
+          href="#"
+          class="navigation__dot"
+          data-bg="bg4"
+          data-title="customer focused"
+          data-text="Your satisfaction is our priority"
+        >
+          <img
+            class="navigation__empty"
+            src="./assets/dots/Ellipse.svg"
+            alt="#"
+          />
+          <img
+            class="navigation__full"
+            src="./assets/dots/Ellipse1.svg"
+            alt=""
+          />
+        </a>
+        <a
+          href="#"
+          class="navigation__dot"
+          data-bg="bg5"
+          data-title="inspired by nature"
+          data-text="Bringing the outdoors inside"
+        >
+          <img
+            class="navigation__empty"
+            src="./assets/dots/Ellipse.svg"
+            alt=""
+          />
+          <img
+            class="navigation__full"
+            src="./assets/dots/Ellipse1.svg"
+            alt=""
+          />
+        </a>
+      </div>
+      <!-- ARROW THAT SENDS YOU TO THE NEXT SECTION -->
+      <div class="arrow">
+        <a href="#projects" class="arrow__down">
+          <img src="./assets/arrow/next.svg" alt="a downward pointing arrow" />
+        </a>
+      </div>
+    </div>
+    <main>
+      <!-- SECOND SECTION -->
+      <div class="second scroll-section" id="projects">
+        <div class="second__container">
+          <div class="second__block">
+            <span class="line"
+              ><img
+                src="../Monticello/assets/images/whatWeDo/Line 1.svg"
+                alt="#"
+            /></span>
+            <h2 class="second__block-title">what we do</h2>
+          </div>
+          <div class="blockOne">
+            <div class="blockOne__combined">
+              <img src="./assets/images/whatWeDo/img1.png" alt="trade center" />
+              <img
+                src="./assets/images/whatWeDo/rectangle1.png"
+                alt="blue square"
+              />
+            </div>
+            <div class="blockOne__description">
+              <h4 class="blockOne__subtitle">one world</h4>
+              <h3 class="blockOne__title">trade center</h3>
+              <p class="blockOne__text">
+                Increasing prosperity in our lives can be accomplished by having
+                the right frame of mind. The truth is, our thoughts are very
+                powerful.
+              </p>
+              <button class="blockOne__button">
+                <span class="blockOne__button-text">more details</span></button
+              ><br />
+              <i
+                class="fa-solid fa-location-dot fa-2xs"
+                style="margin-right: 10px"
+              ></i
+              ><span class="location-text">
+                New York City, United States - 1776 feet
+              </span>
+            </div>
+          </div>
+          <div class="blockTwo">
+            <div class="blockTwo__description">
+              <h4 class="blockTwo__subtitle">international</h4>
+              <h3 class="blockTwo__title">Commerce Centre</h3>
+              <p class="blockTwo__text">
+                Successful businesses have many things in common, <br />today
+                we’ll look at the big ‘R’ of recognition and how a digital
+                advertising network may help.
+              </p>
+              <button class="blockTwo__button">
+                <span class="blockTwo__button-text">more details</span></button
+              ><br />
+              <i
+                class="fa-solid fa-location-dot fa-2xs"
+                style="margin-right: 10px"
+              ></i
+              ><span class="location-text"> Hong Kong - 1588 feet </span>
+            </div>
+            <div class="blockTwo__combined">
+              <img
+                src="./assets/images/whatWeDo/img2.png"
+                alt="tall building"
+              />
+              <img
+                src="./assets/images/whatWeDo/rectangle2.png"
+                alt="violet square"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THIRD SECTION -->
+      <div class="third scroll-section" id="news">
+        <div class="third__container">
+          <div class="third__block">
+            <span class="line">
+              <img
+                src="../Monticello/assets/images/latestNews/Line 1.svg"
+                alt="#"
+              />
+            </span>
+            <h2 class="third__block-title">latest news</h2>
+          </div>
+          <div class="button">
+            <a class="button__prev">
+              <img
+                src="../Monticello/assets/images/latestNews/arrow-buttons/Left.svg"
+                alt="#"
+              />
+            </a>
+            <a class="button__next">
+              <img
+                src="../Monticello/assets/images/latestNews/arrow-buttons/Right.svg"
+                alt="#"
+              />
+            </a>
+          </div>
+          <div class="slider">
+            <div class="owl-carousel owl-theme" id="latest-news">
+              <div class="owl-custom-item first-slide slides">
+                <img src="./assets/images/latestNews/news1.png" alt="#" />
+                <div class="slider__box">
+                  <h1 class="slider__title">
+                    SEE THE UNMATCHED BEAUTY OF THE GREAT.
+                  </h1>
+                  <span class="slider__subtitle"
+                    >Free directories: directories are perfect for customers
+                    that are searching for...</span
+                  >
+                  <div class="slider__author">
+                    <img
+                      src="./assets/images/latestNews/authors/author1.svg"
+                      alt="ALJA BRUN"
+                    />
+                    <div class="slider__author-description">
+                      <p class="slider__author-name">ALJA BRUN</p>
+                      <span class="slider__author-date">20 Jan 2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-custom-item second-slide slides">
+                <img src="./assets/images/latestNews/news2.png" alt="#" />
+                <div class="slider__box">
+                  <h1 class="slider__title">EFFECTIVE ADVERTISING POINTERS.</h1>
+                  <span class="slider__subtitle"
+                    >Having a home based business is a wonderful asset to your
+                    life...</span
+                  >
+                  <div class="slider__author">
+                    <img
+                      src="./assets/images/latestNews/authors/author2.svg"
+                      alt="DOMINIC FREEMAN"
+                    />
+                    <div class="slider__author-description">
+                      <p class="slider__author-name">DOMINIC FREEMAN</p>
+                      <span class="slider__author-date">13 Dec 2019</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-custom-item third-slide slides">
+                <img src="./assets/images/latestNews/news3.png" alt="#" />
+                <div class="slider__box">
+                  <h1 class="slider__title">
+                    HYPNOTIZE YOURSELF INTO THE GHOST.
+                  </h1>
+                  <span class="slider__subtitle"
+                    >There are many things that are important to catalog
+                    design...</span
+                  >
+                  <div class="slider__author">
+                    <img
+                      src="./assets/images/latestNews/authors/author3.svg"
+                      alt="ALICE WARD"
+                    />
+                    <div class="slider__author-description">
+                      <p class="slider__author-name">ALICE WARD</p>
+                      <span class="slider__author-date">30 Nov 2019</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-custom-item fourth-slide slides">
+                <img src="./assets/images/latestNews/img4.png" alt="#" />
+                <div class="slider__box">
+                  <h1 class="slider__title">DISCOVER THE WONDERS OF NATURE.</h1>
+                  <span class="slider__subtitle"
+                    >Explore the hidden treasures of the earth with our expert
+                    guides.</span
+                  >
+                  <div class="slider__author">
+                    <img
+                      src="./assets/images/latestNews/authors/author4.png"
+                      alt="JOSH WOODS"
+                    />
+                    <div class="slider__author-description">
+                      <p class="slider__author-name">CLAUDETTE MOREL</p>
+                      <span class="slider__author-date">10 June 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-custom-item fifth-slide slides">
+                <img src="./assets/images/latestNews/img5.png" alt="#" />
+                <div class="slider__box">
+                  <h1 class="slider__title">A JOURNEY INTO THE UNKNOWN.</h1>
+                  <span class="slider__subtitle"
+                    >Discover the awe-inspiring beauty of the great
+                    outdoors.</span
+                  >
+                  <div class="slider__author">
+                    <img
+                      src="./assets/images/latestNews/authors/author5.png"
+                      alt="JOSH WOODS"
+                    />
+                    <div class="slider__author-description">
+                      <p class="slider__author-name">JOSH WOODS</p>
+                      <span class="slider__author-date">15 Apr 2022</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="carousel-dots" class="owl-dots">
+              <a
+                href="#"
+                id="dot-0"
+                class="dot owl-dot"
+                data-owl-item="1"
+                onclick="handleDotClick(1)"
+              >
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+              </a>
+              <a
+                href="#"
+                id="dot-1"
+                class="dot owl-dot"
+                data-owl-item="2"
+                onclick="handleDotClick(2)"
+              >
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+              </a>
+              <a
+                href="#"
+                id="dot-2"
+                class="dot owl-dot"
+                data-owl-item="3"
+                onclick="handleDotClick(3)"
+              >
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+              </a>
+              <a
+                href="#"
+                id="dot-3"
+                class="dot owl-dot"
+                data-owl-item="4"
+                onclick="handleDotClick(4)"
+              >
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+              </a>
+              <a
+                href="#"
+                id="dot-4"
+                class="dot owl-dot"
+                data-owl-item="5"
+                onclick="handleDotClick(5)"
+              >
+                <img
+                  class="header__empty"
+                  src="./assets/dots/Ellipse.svg"
+                  alt="#"
+                />
+                <img
+                  class="header__full"
+                  src="./assets/dots/Ellipse1.svg"
+                  alt="#"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOURTH SECTION -->
+      <div class="fourth scroll-section" id="gallery">
+        <hr />
+        <h2 class="fourth__title">gallery</h2>
+        <div class="fourth__container">
+          <div class="gallery">
+            <div class="gallery__img gallery__img-one">
+              <a href="#modal1"
+                ><img src="./assets/images/gallery/img1.jpg" alt="#"
+              /></a>
+            </div>
+            <div class="gallery__img gallery__img-two">
+              <a href="#modal2"
+                ><img src="./assets/images/gallery/img2.jpg" alt="#"
+              /></a>
+            </div>
+            <div class="gallery__img gallery__img-three">
+              <a href="#modal3"
+                ><img src="./assets/images/gallery/img3.jpg" alt="#"
+              /></a>
+            </div>
+            <div class="gallery__img gallery__img-four">
+              <a href="#modal4"
+                ><img src="./assets/images/gallery/img4.jpg" alt="#"
+              /></a>
+            </div>
+            <div class="gallery__img gallery__img-five">
+              <a href="#modal5"
+                ><img src="./assets/images/gallery/img5.jpg" alt="#"
+              /></a>
+            </div>
+          </div>
+          <!-- EXPAND IMGS ON CLICK -->
+          <div id="modal" class="modal">
+            <div class="modal__content">
+              <span class="modal__close">&times;</span>
+              <img src="./assets/images/gallery/img1.jpg" alt="#" />
+            </div>
+          </div>
+          <div class="modal">
+            <div class="modal__content">
+              <span class="modal__close">&times;</span>
+              <img src="./assets/images/gallery/img2.jpg" alt="#" />
+            </div>
+          </div>
+          <div class="modal">
+            <div class="modal__content">
+              <span class="modal__close">&times;</span>
+              <img src="./assets/images/gallery/img3.jpg" alt="#" />
+            </div>
+          </div>
+          <div class="modal">
+            <div class="modal__content">
+              <span class="modal__close">&times;</span>
+              <img src="./assets/images/gallery/img4.jpg" alt="#" />
+            </div>
+          </div>
+          <div class="modal">
+            <div class="modal__content">
+              <span class="modal__close">&times;</span>
+              <img src="./assets/images/gallery/img5.jpg" alt="#" />
+            </div>
+          </div>
+          <button class="gallery__button">
+            <p class="gallery__button-text">see more</p>
+          </button>
+        </div>
+      </div>
+      <!-- FIFTH SECTION WITH A MAP -->
+      <div class="map scroll-section" id="contacts">
+        <div class="map__container">
+          <div
+            class="map__google"
+            id="map"
+            style="width: 100%; height: 700px"
+          ></div>
+          <div class="contacts">
+            <hr />
+            <h2 class="contacts__title">get in touch</h2>
+            <div class="contacts__left">
+              <p>
+                <i
+                  class="fa-solid fa-location-dot fa-xs"
+                  style="color: #7e5aff; margin-right: 5px"
+                ></i>
+                91 Nolan extensions suite 670
+              </p>
+              <p>
+                <i
+                  class="fa-solid fa-phone fa-xs"
+                  style="color: #7e5aff; margin-right: 5px"
+                ></i>
+                <a href="tel:++001 356-868-2454">+001 356-868-2454</a>
+              </p>
+              <p>
+                <i
+                  class="fa-sharp fa-solid fa-inbox fa-xs"
+                  style="color: #7e5aff; margin-right: 5px"
+                ></i>
+                <a href="mailto:montichello@service.com"
+                  >montichello@service.com</a
+                >
+              </p>
+              <p>
+                <?xml version="1.0"?><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                  width="30px"
+                  height="30px"
+                >
+                  <path
+                    d="M15,3C8.373,3,3,8.373,3,15c0,6.627,5.373,12,12,12s12-5.373,12-12C27,8.373,21.627,3,15,3z M16,16H7.995 C7.445,16,7,15.555,7,15.005v-0.011C7,14.445,7.445,14,7.995,14H14V5.995C14,5.445,14.445,5,14.995,5h0.011 C15.555,5,16,5.445,16,5.995V16z"
+                  />
+                </svg>
+                From 07:05 AM to 19:30 PM
+              </p>
+            </div>
+            <div class="contacts__right">
+              <form action="#" class="contacts__form" method="POST">
+                <input class="contacts__name" type="text" placeholder="Name" required/>
+                <input
+                  class="contacts__email"
+                  type="email"
+                  placeholder="Email"
+                />
+                <input class="contacts__submit" type="submit" value="SUBMIT" required/>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- FOOTER/ SIXTH SECTION-->
+    <footer class="footer scroll-section">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <a class="footer__logo-link" href="#">
+            <img src="./assets/logo/Logo.svg" alt="Monticello"
+          /></a>
+        </div>
+        <div class="footer__socials">
+          <a href="#" class="footer__link" target="_blank">
+            <img src="../Monticello/assets/socials/facebook.svg" alt="" />
+          </a>
+          <a href="#" class="footer__link" target="_blank">
+            <img src="../Monticello/assets/socials/twitter.svg" alt="" />
+          </a>
+          <a href="#" class="footer__link" target="_blank">
+            <img src="../Monticello/assets/socials/instagram.svg" alt="" />
+          </a>
+        </div>
+        <div class="footer__copyright">
+          <p>Copyrights © 2020 Montichello</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./carousel/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./javascript/script1.js"></script>
+    <script src="./javascript/map.js"></script>
+  </body>
+</html>

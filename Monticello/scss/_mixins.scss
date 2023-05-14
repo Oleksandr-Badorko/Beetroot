@@ -1,0 +1,43 @@
+@import "./variables";
+
+@mixin titlewhite($ffmon, $fsnormal, $fw700, $color-white) {
+    font-family: $ffmon;
+    font-style: $fsnormal;
+    font-weight: $fw700;
+    color: $color-white;
+}
+
+@mixin titledark($ffmon, $fsnormal, $fw700, $color-dark) {
+    font-family: $ffmon;
+    font-style: $fsnormal;
+    font-weight: $fw700;
+    color: $color-dark;
+}
+
+@mixin menu($fsnormal, $fw400, $fz14) {
+    font-style: $fsnormal;
+    font-weight: $fw400;
+    font-size: $fz14;
+}
+
+@mixin monnom400($ffmon, $fsnormal, $fw400) {
+    font-family: $ffmon;
+    font-style: $fsnormal;
+    font-weight: $fw400;
+}
+
+@mixin monnom700($ffmon, $fsnormal, $fw700) {
+    font-family: $ffmon;
+    font-style: $fsnormal;
+    font-weight: $fw700;
+}
+
+@mixin opennorm400($ffopsan, $fsnormal, $fw400, $fz18) {
+    font-family: $ffopsan;
+    font-style: $fsnormal;
+    font-weight: $fw400;
+    font-size: $fz18;
+}
+
+
+

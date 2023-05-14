@@ -1,0 +1,211 @@
+MENU:
+
+font-family: 'Source Sans Pro';
+///font-style: normal;
+font-weight: 400;
+font-size: 14px;///
+color: #FFFFFF;
+line-height: 18px;
+
+
+HEADER TITLE:
+
+font-family: 'Montserrat';
+///font-style: normal;
+font-weight: 700;
+font-size: 80px;
+color: #FFFFFF;///
+line-height: 98px;
+letter-spacing: 0.1em;
+
+
+HEADER TEXT:
+
+///font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400; ///
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.3em;
+color: #FFFFFF;
+
+_______________________________________________________________________________________________________________________________________________________
+
+TITLE "WHAT WE DO"
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+text-align: center;
+color: #2C4058;
+
+
+SUBTITLE:
+
+///font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;///
+font-size: 22px;
+line-height: 27px;
+color: #2C4058;
+
+
+TEXT:
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #2C4058;
+
+
+LOCATION:
+
+font-family: 'Open Sans';
+font-style: italic;
+font-weight: 400; 
+font-size: 15px;
+line-height: 20px;
+color: #000000;
+
+
+BUTTON TEXT:
+
+///font-family: 'Montserrat';
+///font-style: normal;
+font-weight: 400; ///
+font-size: 14px;///
+line-height: 17px;
+color: #000000;
+
+_______________________________________________________________________________________________________________________________________________________
+
+LATEST NEWS:
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+text-align: center;
+color: #FFFFFF;
+
+
+CARD TITLE: 
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #2C4058;
+
+
+CARD TEXT:
+
+font-family: 'Open Sans';
+///font-style: normal;
+font-weight: 400; ///
+font-size: 18px;///
+line-height: 25px;
+color: #2C4058;
+
+
+CARD NAME:
+
+///font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400; ///
+font-size: 18px;
+line-height: 22px;
+color: #2C4058;
+
+
+CARD DATE:
+
+///font-family: 'Montserrat';
+///font-style: normal;
+font-weight: 400; ///
+font-size: 14px;///
+line-height: 17px;
+color: #55B7FF;
+
+_______________________________________________________________________________________________________________________________________________________
+
+GALLERY:
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+text-align: center;
+color: #2C4058;
+
+
+BUTTON TEXT:
+
+///font-family: 'Montserrat';
+///font-style: normal;
+font-weight: 400; ///
+font-size: 14px;///
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+_______________________________________________________________________________________________________________________________________________________
+
+GET IN TOUCH TITLE:
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+text-align: center;
+color: #2C4058;
+
+
+LEFT SIDE:
+
+font-family: 'FontAwesome';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #7E5AFF;
+
+RIGHT SIDE:
+
+///font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400; ///
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+
+RIGHT BUTTON TEXT:
+
+///font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400; ///
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+
+_______________________________________________________________________________________________________________________________________________________
+
+COPYRIGHT:
+
+///font-family: 'Montserrat';
+///font-style: normal;
+font-weight: 400; ///
+font-size: 14px;///
+line-height: 17px;
+color: #FFFFFF;
