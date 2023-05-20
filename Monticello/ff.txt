@@ -11,5 +11,3 @@ font-family: 'Open Sans';
 font-style: normal;
 font-style: italic;
 font-weight: 400;
-
-AIzaSyAKMZnXONfApXMQ_vp7unUA8aYuw3gHYN4
