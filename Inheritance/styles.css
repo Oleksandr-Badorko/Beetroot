@@ -1,0 +1,56 @@
+.clock-wrapper {
+  text-align: center;
+}
+
+.clock {
+  display: inline-block;
+  margin-right: 113px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: lightgray;
+  text-align: center;
+  width: 156px;
+  height: 152px;
+  margin-top: 50px;
+}
+
+.clock-info {
+  margin-top: 10px;
+}
+
+.clock-info h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.clock-buttons {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.clock-buttons button {
+  width: 35px;
+  height: 26px;
+  margin-right: 25px;
+  padding: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:nth-child(3) {
+    margin-right: 0;
+}
+
+.clock .show-date {
+  background-color: lightgreen;
+}
+
+.clock .show-date-time {
+  background-color: blue;
+}
+
+.clock .delete-clock {
+  background-color: red;
+}
