@@ -1,0 +1,23 @@
+@import "./variables";
+
+@mixin navigation($fflato, $fsnormal, $fw600, $ttup, $color-ishblack) {
+    font-family: $fflato;
+    font-style: $fsnormal;
+    font-weight: $fw600;
+    text-transform: $ttup;
+    color: $color-ishblack;
+}
+
+@mixin nameposi($fflato, $fsnormal, $fz18, $lh22) {
+    font-family: $fflato;
+    font-style: $fsnormal;
+    font-size: $fz18;
+    line-height: $lh22;
+}
+
+@mixin basicStyle($fflato, $fsnormal, $tacent, $color-ishblack) {
+    font-family: $fflato;
+    font-style: $fsnormal;
+    text-align: $tacent;
+    color: $color-ishblack;
+}

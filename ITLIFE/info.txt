@@ -1,0 +1,97 @@
+header navigation:
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #3C3C3C;
+
+
+
+button-text:
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #3C3C3C;
+
+
+
+title: 
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+text-align: center;
+letter-spacing: 0.13em;
+text-transform: uppercase;
+
+color: #3C3C3C;
+
+
+
+description: 
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: center;
+
+color: #3C3C3C;
+
+
+names:
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #282528;
+
+
+
+positions: 
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #646464;
+
+
+
+footer navigation: 
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+/* title/title-subtitle-text */
+
+color: #3C3C3C;

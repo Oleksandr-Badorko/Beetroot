@@ -1,0 +1,15 @@
+@import "./reset";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+@import "./stylesheet.scss";
+@import "./header";
+@import "./main";
+@import "./footer";
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: $margin-center;
+}
+

@@ -1,0 +1,66 @@
+@import "./reset";
+@import "./responsive";
+@import "./variables";
+@import "./mixins";
+
+.header {
+    border: 1px solid $color-grey;
+    .header__container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        
+        img {
+            margin-top: 6px;
+            cursor: pointer;
+        }
+
+        .navigation {
+            &__list {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding-top: 28px;
+                gap: 30px;
+                cursor: pointer;
+                &-item {
+                    @include navigation("lato", normal, 600, uppercase, $color-ishblack);
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+                &-item:hover {
+                    color: $color-blue;
+                }
+            }
+        }
+
+        .header__button {
+            width: 130px;
+            height: 42px;
+            border: 1px solid $color-ishblack;
+            margin-top: 19px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            &-text {
+                font-family: "Lato";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                text-transform: uppercase;
+                color: $color-ishblack;
+            }
+        }
+    }
+}
+
+.header__button:hover {
+    background: $color-blue;
+    .header__button-text {
+        color: #ffffff;
+    }   
+  }
