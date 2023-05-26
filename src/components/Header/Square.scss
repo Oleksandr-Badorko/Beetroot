@@ -1,0 +1,14 @@
+.squares {
+    width: 300px;
+    display: flex;
+
+    .square {
+        width: 46px;
+        height: 37px;
+        background: #e7efd6;
+        margin-right: 18px;
+    }
+    .square:nth-child(5) {
+        margin: 0;
+    }
+}

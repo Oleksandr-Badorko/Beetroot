@@ -1,0 +1,28 @@
+.rectangles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .main__title {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        margin-top: 17px;
+        margin-bottom: 15px;
+    }
+
+    .rectangle {
+        width: 759px;
+        height: 70px;
+        background: #f9d7d7;
+        margin-bottom: 27px;
+    }
+
+    .rectangle:nth-child(6) {
+        margin-bottom: 24px;
+    }
+}

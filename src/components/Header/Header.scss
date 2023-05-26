@@ -1,0 +1,27 @@
+.header {
+    box-sizing: border-box;
+    width: 1170px;
+    height: 48px;
+    background: #d9d9d9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0 26px;
+    .rectangle {
+        width: 181px;
+        height: 37px;
+        background: #f1f2ae;
+    }
+
+    &__text {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        padding-left: 349px;
+        padding-right: 227px;
+    }
+}
